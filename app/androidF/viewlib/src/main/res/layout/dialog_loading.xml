@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:orientation="vertical"
+             tools:background="@android:color/white"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <FrameLayout
+            tools:visibility="invisible"
+            android:id="@+id/progress_container"
+            android:padding="@dimen/dp20"
+            android:background="@drawable/shape_dialog_load_bg"
+            android:layout_gravity="center"
+            android:minHeight="@dimen/dp100"
+            android:minWidth="@dimen/dp100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ProgressBar
+                tools:visibility="gone"
+                android:id="@+id/load_progress_bar"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/progressbar"
+                />
+
+    </FrameLayout>
+
+    <TextView
+            android:paddingLeft="@dimen/dp30"
+            android:paddingRight="@dimen/dp30"
+            android:paddingTop="@dimen/dp15"
+            android:paddingBottom="@dimen/dp15"
+            android:id="@+id/msg_tv"
+            android:textSize="@dimen/sp15"
+            android:minHeight="@dimen/dp57"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/dp5"
+            android:background="@drawable/shape_dialog_load_bg"
+            tools:text="网络错误网络错误"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:minWidth="@dimen/dp247"
+            android:layout_width="@dimen/dp247"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>

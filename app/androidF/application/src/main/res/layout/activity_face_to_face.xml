@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            app:title_text="面对面邀请"
+            app:left_image="@mipmap/icon_back"
+            android:layout_width="match_parent"
+            android:id="@+id/title_bar_view"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <RelativeLayout
+            android:background="@color/color_ff7b6d"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:src="@mipmap/bg_facetoface"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <ImageView
+                android:paddingRight="@dimen/dp20"
+                android:id="@+id/center_bg"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/image_facetoface_hb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/top_tip_tv"
+                android:lineSpacingExtra="@dimen/dp5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp20"
+                android:layout_marginTop="@dimen/dp41"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+                android:id="@+id/center_container"
+                android:orientation="vertical"
+                android:layout_alignBottom="@+id/center_bg"
+                android:layout_alignRight="@+id/center_bg"
+                android:layout_alignLeft="@+id/center_bg"
+                android:layout_alignTop="@+id/center_bg"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/center_qr_code_iv"
+                    android:layout_marginTop="@dimen/dp163"
+                    android:layout_gravity="center_horizontal"
+                    tools:background="@color/black_text_color"
+                    android:layout_width="@dimen/dp183"
+                    android:layout_height="@dimen/dp183"/>
+
+            <TextView
+                    android:id="@+id/red_code_tv"
+                    android:lines="1"
+                    tools:text="xxxxx"
+                    android:includeFontPadding="false"
+                    android:textSize="@dimen/sp22"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/dp51"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+                android:textSize="@dimen/sp14"
+                android:textColor="@color/color_ffed76"
+                android:text="@string/after_installation_is_complete_fill_in_red_envelope_code_can_receive_red_envelope"
+                android:layout_marginTop="@dimen/dp40"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/center_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

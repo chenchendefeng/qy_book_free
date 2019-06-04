@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="@dimen/dp8"
+        android:paddingTop="@dimen/dp8"
+        tools:layout_width="@dimen/dp200"
+        android:paddingRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_below="@+id/cover_iv"
+            android:background="@drawable/shadow_15141"
+            android:layout_width="@dimen/dp57"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+            style="@style/cover_iv"
+            android:id="@+id/cover_iv"
+            android:layout_width="@dimen/dp57"
+            android:layout_height="@dimen/dp80"/>
+
+    <TextView
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_alignTop="@+id/cover_iv"
+            android:id="@+id/book_name_tv"
+            tools:text="shjfhjsdjshfjshdjfs"
+            android:textColor="@color/black_text_color"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_toRightOf="@+id/cover_iv"
+            android:textSize="@dimen/sp13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginTop="@dimen/dp7"
+            android:id="@+id/book_des_tv"
+            android:layout_below="@+id/book_name_tv"
+            android:lines="2"
+            android:lineSpacingExtra="@dimen/dp5"
+            android:textSize="@dimen/sp10"
+            tools:text="发的是件好事史蒂芬霍金斯蒂芬誓师大会福建省的水电费福建省地方坚实的粉红色"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_toRightOf="@+id/cover_iv"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/author_classify_tv"
+            android:lines="1"
+            android:textSize="@dimen/sp9"
+            android:layout_alignBottom="@+id/cover_iv"
+            tools:text="hhsdfs"
+            android:ellipsize="end"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_toRightOf="@+id/cover_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="@dimen/dp8"
+        android:paddingTop="@dimen/dp8"
+        tools:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_below="@+id/cover_iv"
+            android:background="@drawable/shadow_15141"
+            android:layout_width="@dimen/dp75"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+            style="@style/cover_iv"
+            android:id="@+id/cover_iv"
+            android:layout_width="@dimen/dp75"
+            android:layout_height="@dimen/dp104"/>
+
+    <TextView
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_alignLeft="@+id/cover_iv"
+            android:layout_alignRight="@+id/cover_iv"
+            android:layout_below="@+id/cover_iv"
+            android:maxLines="1"
+            android:lineSpacingExtra="@dimen/dp5"
+            android:ellipsize="end"
+            android:id="@+id/book_name_tv"
+            tools:text="shjfhjsdjdjfsshjfhjsdjdjfs"
+            android:textColor="@color/second_black_text_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/third_black_text_color"
+            android:textSize="@dimen/sp10"
+            android:layout_marginTop="@dimen/dp8"
+            tools:text="hsdhsf"
+            android:id="@+id/author_tv"
+            android:layout_below="@+id/book_name_tv"
+            android:layout_alignLeft="@+id/cover_iv"
+            android:layout_alignRight="@+id/cover_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

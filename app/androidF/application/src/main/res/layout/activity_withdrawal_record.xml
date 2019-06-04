@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            android:id="@+id/title_bar_view"
+            app:left_image="@mipmap/icon_back"
+            app:title_text="@string/withdrawal_for_record"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_below="@+id/title_bar_view"
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/withdrawal_record_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.wy.adbook.view.status.StatusCoverView
+            android:id="@+id/status_cover_view"
+            app:loadingView="@layout/layout_loading"
+            android:layout_below="@+id/title_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</RelativeLayout>

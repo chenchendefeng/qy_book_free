@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             tools:background="@color/white"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <FrameLayout
+                android:layout_weight="1"
+                android:background="@color/black_20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:drawablePadding="@dimen/dp24"
+                    android:drawableTop="@mipmap/icon_read_first_left"
+                    android:textSize="@dimen/dp17"
+                    android:textColor="@color/white"
+                    android:text="@string/previous_page"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:background="@color/black_30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:textSize="@dimen/dp17"
+                    android:layout_marginBottom="-30dp"
+                    android:layout_above="@+id/center_iv"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/white"
+                    android:text="@string/click_middle_out_menu"
+                    android:layout_width="wrap_content"
+                    android:lineSpacingExtra="@dimen/dp5"
+                    android:layout_height="wrap_content"/>
+
+            <ImageView
+                    android:paddingTop="@dimen/dp54"
+                    android:id="@+id/center_iv"
+                    android:paddingLeft="@dimen/dp24"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/icon_read_first_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <FrameLayout
+                android:layout_weight="1"
+                android:background="@color/black_20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:drawablePadding="@dimen/dp24"
+                    android:drawableTop="@mipmap/icon_read_first_right"
+                    android:textSize="@dimen/dp17"
+                    android:textColor="@color/white"
+                    android:text="@string/next_page"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

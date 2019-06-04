@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sp_qy_user_info">qy_user_info</string>
+    <string name="sp_qy_user_token">qy_user_token</string>
+    <string name="sp_qy_is_register">qy_is_register</string>
+    <string name="sp_qy_gender">qy_gender</string>
+
+    <string name="sp_qy_is_first_enter_book_read">is_first_enter_book_read</string>
+</resources>

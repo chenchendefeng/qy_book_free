@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--能够全屏的dialog-->
+    <style name="BaseAlertDialogTheme.NoPadding" parent="BaseAlertDialogTheme">
+        <!--必须修改默认的背景色，否则dialog无法充满全屏，会有padding-->
+        <!--<item name="android:windowBackground">@drawable/abc_dialog_material_background</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="BaseAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--窗体变暗-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--<item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>-->
+        <item name="android:windowEnterAnimation">@anim/scale_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_out</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

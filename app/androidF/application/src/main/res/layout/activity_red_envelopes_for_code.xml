@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            android:id="@+id/title_bar_view"
+            app:left_image="@mipmap/icon_back"
+            app:title_text="@string/red_envelopes_for_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <ImageView
+            android:scaleType="centerCrop"
+            android:src="@mipmap/image_hbma_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:gravity="center"
+            android:id="@+id/red_envelopes_et"
+            android:textSize="@dimen/sp15"
+            android:lines="1"
+            android:maxLength="6"
+            android:textColorHint="@color/color_bdbdbd"
+            android:layout_gravity="center_horizontal"
+            android:hint="输入好友红包兑换码"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_marginLeft="@dimen/dp15"
+            android:background="@null"
+            android:layout_marginTop="@dimen/dp45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp15"
+            style="@style/line_divide"/>
+
+
+    <TextView
+            android:text="@string/submit_text"
+            android:id="@+id/submit_btn"
+            android:layout_marginTop="@dimen/dp45"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_marginLeft="@dimen/dp15"
+            android:background="@drawable/selector_circle_45_d8d8d8_unenable_g_fc6863_to_e60012_enable"
+            android:gravity="center"
+            android:textSize="@dimen/sp15"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp45"/>
+
+
+    <TextView
+            android:textSize="@dimen/sp13"
+            android:textColor="@color/color_bdbdbd"
+            android:layout_marginTop="@dimen/dp26"
+            android:layout_marginLeft="@dimen/dp15"
+            android:text="@string/note_cannot_be_modified_after_submission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/dp15"
+              android:paddingRight="@dimen/dp15"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_marginTop="@dimen/dp20"
+            tools:text="精品必读"
+            android:textStyle="bold"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/sp18"
+            android:id="@+id/project_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/project_main_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/project_secondary_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <View style="@style/line_divide"/>
+
+</LinearLayout>

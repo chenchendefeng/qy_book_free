@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.freebookqy.viewlib.TitleBarView
+            android:id="@+id/title_bar_view"
+            app:title_text="@string/welfare_centre"
+            app:line_divide="false"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ScrollView
+                    android:background="@color/color_f0f0f0"
+                    android:layout_width="match_parent"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:layout_marginBottom="@dimen/dp85"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                            android:id="@+id/header_container"
+                            tools:visibility="visible"
+                            android:visibility="gone"
+                            android:layout_marginBottom="@dimen/dp40"
+                            android:background="@drawable/shape_f0f0f0_bg_5cornner"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:layout_marginLeft="@dimen/dp18"
+                            android:layout_marginRight="@dimen/dp18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                android:layout_alignTop="@+id/sign_in_status_container"
+                                android:gravity="center_vertical"
+                                android:layout_alignBottom="@+id/sign_in_status_container"
+                                android:lines="1"
+                                android:textSize="@dimen/sp16"
+                                android:layout_marginLeft="@dimen/dp15"
+                                android:textColor="@color/black_text_color"
+                                android:id="@+id/sign_in_number_days_tv"
+                                tools:text="sfhsjdf"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"/>
+
+                        <FrameLayout
+                                android:id="@+id/sign_in_status_container"
+                                android:background="@drawable/shape_circle_40_g_fa5e5b_to_e9101e"
+                                android:layout_marginTop="@dimen/dp22"
+                                android:layout_marginRight="@dimen/dp15"
+                                android:layout_alignParentRight="true"
+                                android:layout_width="@dimen/dp110"
+                                android:layout_height="@dimen/dp40">
+
+                            <TextView
+                                    android:id="@+id/sign_in_status_tv"
+                                    android:textColor="@color/white"
+                                    android:text="@string/sign_in_immediately"
+                                    android:layout_gravity="center"
+                                    android:drawablePadding="@dimen/dp5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            <TextView
+                                    tools:visibility="gone"
+                                    android:textColor="@color/black_text_color"
+                                    android:textSize="@dimen/sp13"
+                                    android:layout_gravity="center"
+                                    tools:text="已签到"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                        </FrameLayout>
+
+                        <TextView
+                                android:id="@+id/sign_in_tip_tv"
+                                tools:text="sfdfsfs"
+                                android:layout_marginBottom="@dimen/dp20"
+                                android:layout_marginLeft="@dimen/dp15"
+                                android:layout_marginTop="@dimen/dp34"
+                                android:layout_below="@+id/sign_in_number_days_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                            android:visibility="gone"
+                            tools:visibility="visible"
+                            android:id="@+id/new_welfare_container"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                android:layout_marginBottom="@dimen/dp17"
+                                style="@style/big_title_welfare"
+                                android:text="@string/new_welfare"/>
+
+                        <LinearLayout
+                                android:id="@+id/new_welfare_list"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:layout_marginTop="@dimen/dp17"-->
+                    <!--android:id="@+id/fill_in_red_envelope_code_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:layout_marginTop="@dimen/dp17"-->
+                    <!--android:id="@+id/binding_mobile_phone_number_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:layout_marginTop="@dimen/dp17"-->
+                    <!--android:id="@+id/time_to_invite_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:layout_marginTop="@dimen/dp17"-->
+                    <!--android:id="@+id/prize_correct_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+                    <LinearLayout
+                            android:visibility="gone"
+                            tools:visibility="visible"
+                            android:orientation="vertical"
+                            android:id="@+id/read_welfare_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <View style="@style/item_welfare_divide"/>
+
+                        <TextView
+                                android:layout_marginBottom="@dimen/dp17"
+                                android:layout_marginTop="@dimen/dp23"
+                                style="@style/big_title_welfare"
+                                android:text="@string/read_welfare"/>
+
+                        <LinearLayout
+                                android:id="@+id/read_welfare_list"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:layout_marginTop="@dimen/dp17"-->
+                    <!--android:id="@+id/timing_reward_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:id="@+id/daily_reading_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.DailyReadingProgress-->
+                    <!--android:id="@+id/daily_reading_progress_view"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:layout_marginTop="@dimen/dp8"-->
+                    <!--android:id="@+id/watching_video_from_advertising_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+                    <LinearLayout
+                            android:visibility="gone"
+                            tools:visibility="visible"
+                            android:orientation="vertical"
+                            android:id="@+id/daily_welfare_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <View style="@style/item_welfare_divide"/>
+
+                        <TextView
+                                android:layout_marginTop="@dimen/dp23"
+                                style="@style/big_title_welfare"
+                                android:layout_marginBottom="@dimen/dp17"
+                                android:text="@string/daily_welfare"/>
+
+                        <LinearLayout
+                                android:id="@+id/daily_welfare_list"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:layout_marginTop="@dimen/dp17"-->
+                    <!--android:id="@+id/share_points_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:id="@+id/won_prize_to_invite_friends_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                    <!--<com.wy.adbook.view.WelfareItemView-->
+                    <!--android:id="@+id/lucky_guy_item"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"/>-->
+
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <com.wy.adbook.view.status.StatusCoverView
+                android:id="@+id/status_cover_view"
+                tools:visibility="gone"
+                app:loadingView="@layout/layout_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </FrameLayout>
+
+</LinearLayout>

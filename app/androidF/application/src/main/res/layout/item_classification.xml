@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:button="@null"
+        tools:checked="false"
+        tools:text="sdfjaksdf"
+        android:gravity="center"
+        android:background="@drawable/selector_f5f5f5_selected_fffff_normal"
+        android:textColor="@color/selector_292929_e5220e_checked"
+        android:drawableLeft="@drawable/selector_classification_left"
+        android:id="@+id/classification_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp54"/>

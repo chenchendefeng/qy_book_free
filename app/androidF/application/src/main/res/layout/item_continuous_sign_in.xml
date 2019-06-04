@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dp14"
+                android:layout_width="@dimen/dp58"
+                android:layout_height="wrap_content">
+
+    <View
+            android:id="@+id/left_line"
+            android:background="@color/color_ffb098"
+            android:layout_width="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp15"
+            android:layout_height="@dimen/dp12"/>
+
+    <View
+            android:id="@+id/right_line"
+            android:layout_alignParentRight="true"
+            android:background="@color/color_ffb098"
+            android:layout_width="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp15"
+            android:layout_height="@dimen/dp12"/>
+
+    <TextView
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/sp13"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:text="1000"
+            android:id="@+id/reward_tv"
+            android:background="@mipmap/cir_yiling"
+            android:layout_width="@dimen/dp42"
+            android:layout_height="@dimen/dp42"/>
+
+    <TextView
+            android:layout_below="@+id/reward_tv"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/continuous_sign_rv"
+            tools:text="5天"
+            android:textSize="@dimen/sp13"
+            android:textColor="@color/selector_8d8d8d_no_selected_3e3837_select"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>

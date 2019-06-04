@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/skip_btn"
+            android:padding="10dp"
+            android:text="@string/skip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
+            android:id="@+id/gsTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_select_gender"
+            android:textColor="#ff292929"
+            android:textSize="24sp"
+            />
+
+    <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/gsTitle"
+            android:id="@+id/gsSubtitle"
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:text="@string/recommend_by_gender"
+            android:layout_height="wrap_content"/>
+
+    <RadioGroup
+            android:id="@+id/genderSelectRG"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/gsSubtitle"
+            android:layout_marginTop="138dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+                android:id="@+id/manRb"
+                style="@style/gender_radio"
+                tools:checked="true"
+                android:drawableTop="@drawable/selector_gender_select_man"
+                android:text="@string/man"
+                />
+
+        <RadioButton
+                android:id="@+id/womanRb"
+                style="@style/gender_radio"
+                android:button="@null"
+                android:text="@string/woman"
+                android:drawableTop="@drawable/selector_gender_select_woman"/>
+
+    </RadioGroup>
+
+
+    <TextView
+            android:layout_marginBottom="112dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:id="@+id/startReadTv"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="@string/start_read"
+            android:layout_marginTop="127dp"
+            android:background="@drawable/shape_circle_36_ffe5220e_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

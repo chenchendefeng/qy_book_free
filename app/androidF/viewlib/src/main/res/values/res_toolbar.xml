@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleBarView">
+        <attr name="title_text" format="string|reference"/>
+        <attr name="title_text_color" format="reference"/>
+        <attr name="left_image" format="reference"/>
+        <attr name="left_text" format="string|reference"/>
+        <attr name="left_text_color" format="reference"/>
+        <attr name="right_image" format="reference"/>
+        <attr name="right_text" format="string|reference"/>
+        <attr name="right_text_color" format="reference"/>
+        <attr name="title_bg" format="reference"/>
+        <attr name="line_divide" format="boolean"/>
+    </declare-styleable>
+
+    <style name="titleBarTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">@dimen/titleBarHeight</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/title_main_text_color</item>
+        <item name="android:textSize">@dimen/titleBarTitleTextSize</item>
+    </style>
+
+    <style name="titleBarTextButtonStyle">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxWidth">@dimen/titleBarButtonSize</item>
+        <item name="android:minWidth">@dimen/titleBarButtonSize</item>
+        <item name="android:layout_height">@dimen/titleBarHeight</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/title_main_text_color</item>
+        <item name="android:textSize">@dimen/titleBarButtonTextSize</item>
+    </style>
+
+    <style name="titleBarImageButtonStyle">
+        <item name="android:maxWidth">@dimen/titleBarButtonSize</item>
+        <item name="android:minWidth">@dimen/titleBarButtonSize</item>
+        <item name="android:layout_height">@dimen/titleBarHeight</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@null</item>
+    </style>
+
+
+    <style name="mainTitleBarStyle">
+        <item name="android:layout_height">@dimen/titleBarHeight</item>
+        <item name="android:background">@color/titlebar_bg_normal</item>
+    </style>
+
+    <style name="titleBarButtonStyle">
+        <item name="android:minWidth">@dimen/titleBarButtonSize</item>
+        <item name="android:maxWidth">@dimen/titleBarButtonSize</item>
+        <item name="android:layout_height">@dimen/titleBarHeight</item>
+    </style>
+
+    <color name="titlebar_bg_normal">#FFF</color>
+
+    <dimen name="titleBarHeight">45dp</dimen>
+    <dimen name="titleBarTitleTextSize">18dp</dimen>
+    <dimen name="titleBarButtonTextSize">17dp</dimen>
+    <dimen name="titleBarButtonSize">80dp</dimen>
+
+    <dimen name="title_left_text_margin_left">10dp</dimen>
+    <dimen name="title_left_text_size">14sp</dimen>
+    <dimen name="title_left_image_margin_left">10dp</dimen>
+    <dimen name="title_right_image_margin">15dp</dimen>
+
+    <color name="title_main_text_color">#292929</color>
+
+    <dimen name="title_bar_height">44dp</dimen>
+
+    <color name="title_divide_color">#F5F5F5</color>
+</resources>

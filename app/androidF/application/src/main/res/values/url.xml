@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="url_invite_friend">http://192.168.18.212/#/free/invite</string>
+
+    <string name="url_lottery">http://192.168.18.212/#/free/lottery</string>
+
+</resources>

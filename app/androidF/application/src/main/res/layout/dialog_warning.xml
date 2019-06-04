@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:background="@android:color/darker_gray">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="@drawable/bg_dialog"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/mTvContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="@color/black_text_color"
+                android:textSize="16sp"
+                tools:text="确定要这样做嘛???"/>
+
+        <TextView
+                android:id="@+id/mTvDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="33dp"
+                android:singleLine="true"
+                android:textColor="@color/black_text_color"
+                android:textSize="14sp"
+                android:includeFontPadding="false"
+                tools:text="确定要这样做嘛???"/>
+
+        <View
+                android:layout_marginTop="@dimen/dp32"
+                style="@style/line_divide"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/mBtnCancel"
+                    style="@style/DialogButton"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/third_black_text_color"
+                    android:text="@string/cancel"/>
+
+            <View
+                    android:layout_width="@dimen/dp1"
+                    android:background="@color/color_f5f5f5"
+                    android:layout_height="match_parent"/>
+
+            <TextView
+                    android:id="@+id/mBtnConfirm"
+                    style="@style/DialogButton"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/red_text_color"
+                    android:text="@string/confirm"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

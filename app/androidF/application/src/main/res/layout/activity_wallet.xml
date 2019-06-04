@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            android:id="@+id/title_bar_view"
+            app:line_divide="false"
+            app:left_image="@mipmap/icon_back"
+            app:title_text="@string/my_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <RelativeLayout
+            android:layout_below="@+id/title_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <FrameLayout
+                android:id="@+id/header_container"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_marginBottom="@dimen/dp20"
+                    android:paddingLeft="@dimen/dp10"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:layout_marginLeft="@dimen/dp15"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:background="@drawable/shape_g_ff9e7b_to_f85848_corner9"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp140">
+
+                <RelativeLayout
+                        android:id="@+id/cash_container"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        android:minWidth="@dimen/dp150"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:id="@+id/rmb_title"
+                            android:layout_marginLeft="@dimen/dp40"
+                            android:textSize="@dimen/sp13"
+                            android:textColor="@color/white"
+                            android:text="@string/cash_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:gravity="center"
+                            android:layout_alignLeft="@+id/rmb_title"
+                            android:layout_alignRight="@+id/rmb_title"
+                            android:layout_below="@+id/rmb_title"
+                            android:id="@+id/rmb_amount_tv"
+                            android:includeFontPadding="false"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30"
+                            android:layout_marginTop="@dimen/dp14"
+                            android:textColor="@color/white"
+                            tools:text="1.15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_marginLeft="@dimen/dp5"
+                            android:layout_below="@+id/rmb_amount_tv"
+                            android:id="@+id/total_get_rmb_amount_tv"
+                            android:layout_marginTop="@dimen/dp25"
+                            android:textSize="@dimen/sp13"
+                            android:textColor="@color/white"
+                            tools:text="@string/has_to_earn_cash"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginRight="@dimen/dp40"
+                        android:layout_alignTop="@+id/cash_container"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textSize="@dimen/sp13"
+                            android:textColor="@color/white"
+                            android:text="@string/gloden_bean_balance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:id="@+id/gold_amount_tv"
+                            android:layout_gravity="center_horizontal"
+                            android:includeFontPadding="false"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp30"
+                            android:layout_marginTop="@dimen/dp14"
+                            android:textColor="@color/white"
+                            tools:text="1.15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </FrameLayout>
+
+        <View
+                android:id="@+id/divide1"
+                android:layout_below="@+id/header_container"
+                android:background="@color/color_f5f5f5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp8"/>
+
+        <net.lucode.hackware.magicindicator.MagicIndicator
+                android:id="@+id/magic_indicator"
+                android:background="@color/white"
+                android:layout_below="@+id/divide1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp41"/>
+
+        <View
+                android:layout_marginTop="@dimen/dp4"
+                android:id="@+id/divide2"
+                android:layout_below="@+id/magic_indicator"
+                style="@style/line_divide"/>
+
+        <android.support.v4.view.ViewPager
+                android:id="@+id/wallet_vp"
+                android:layout_above="@+id/btm_btn_container"
+                android:layout_below="@+id/divide2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <FrameLayout
+                android:id="@+id/btm_btn_container"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/dp32"
+                android:paddingRight="@dimen/dp32"
+                android:paddingTop="@dimen/dp11"
+                android:paddingBottom="@dimen/dp11"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="@dimen/sp14"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="@string/i_want_change"
+                    android:background="@drawable/shape_circle_42_g_fc6863_to_e60012"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <com.wy.adbook.view.status.StatusCoverView
+                android:id="@+id/status_cover_view"
+                tools:visibility="gone"
+                app:loadingView="@layout/layout_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

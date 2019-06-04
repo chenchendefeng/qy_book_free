@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:id="@+id/title_bar"
+                android:background="@drawable/selector_titlebar_bg"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_above="@+id/viewDivider"
+            android:layout_alignParentTop="true"
+            >
+
+        <FrameLayout
+                android:id="@+id/buttonLeft"
+                style="@style/titleBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true">
+
+            <TextView
+                    android:id="@+id/viewTextLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:clickable="false"
+                    android:textColor="#555555"
+                    android:textSize="@dimen/title_left_text_size"
+                    android:visibility="gone"/>
+
+            <ImageView
+                    android:id="@+id/viewImageLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <TextView
+                android:id="@+id/viewTitleText"
+                style="@style/titleBarTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"/>
+
+        <ImageView
+                android:id="@+id/title_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/viewTitleText"/>
+
+        <FrameLayout
+                android:id="@+id/buttonRight"
+                style="@style/titleBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:minWidth="100dp">
+
+            <TextView
+                    android:id="@+id/viewTextRight"
+                    style="@style/titleBarTextButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="15dp"
+                    android:clickable="false"
+                    android:gravity="right"
+                    android:text=""/>
+
+            <ImageView
+                    android:id="@+id/viewImageRight"
+                    style="@style/titleBarImageButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:clickable="false"
+                    android:minWidth="50dp"/>
+
+        </FrameLayout>
+    </RelativeLayout>
+
+    <View
+            android:id="@+id/viewDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/title_divide_color"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:visibility="visible"/>
+
+</RelativeLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            android:id="@+id/title_bar_view"
+            app:line_divide="false"
+            app:left_image="@mipmap/icon_back"
+            app:title_text="@string/i_want_to_withdraw"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <ScrollView
+            android:layout_below="@+id/title_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:background="@color/color_f0f0f0"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:id="@+id/my_gold_bean_container"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp51">
+
+                <TextView
+                        android:id="@+id/my_gold_bean_count_tv"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:layout_centerVertical="true"
+                        android:textSize="@dimen/sp16"
+                        android:textColor="@color/black_text_color"
+                        tools:text="@string/my_fortunella_venosa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/estimated_tv"
+                        android:paddingLeft="@dimen/dp5"
+                        android:paddingRight="@dimen/dp5"
+                        tools:text="约100元"
+                        android:textSize="@dimen/sp9"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:background="@drawable/shape_circle_17_e5220e"
+                        android:layout_marginLeft="@dimen/dp3"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/my_gold_bean_count_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:textSize="@dimen/sp12"
+                        android:layout_marginRight="@dimen/dp15"
+                        android:drawableRight="@mipmap/icon_right_arrow"
+                        android:text="@string/detail"
+                        android:textColor="@color/third_black_text_color"
+                        android:drawablePadding="@dimen/dp6"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:id="@+id/my_gold_bean_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                    android:id="@+id/my_cash_container"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp51">
+
+                <TextView
+                        android:id="@+id/my_cash_tv"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:layout_centerVertical="true"
+                        android:textSize="@dimen/sp16"
+                        android:textColor="@color/black_text_color"
+                        tools:text="@string/my_cash_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:textSize="@dimen/sp12"
+                        android:layout_marginRight="@dimen/dp15"
+                        android:drawableRight="@mipmap/icon_right_arrow"
+                        android:text="@string/detail"
+                        android:textColor="@color/third_black_text_color"
+                        android:drawablePadding="@dimen/dp6"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                    android:layout_marginTop="@dimen/dp8"
+                    android:id="@+id/my_cash_rv"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                    android:layout_marginTop="@dimen/dp8"
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="@dimen/dp51">
+
+                <TextView
+                        android:id="@+id/invite_friend_tv"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:textSize="@dimen/sp16"
+                        android:textColor="@color/black_text_color"
+                        android:text="@string/invite_good_ulead_earn_n_dollars_in_cash"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/to_make_money_tv"
+                        android:gravity="center"
+                        android:textSize="@dimen/sp13"
+                        android:textColor="@color/white"
+                        android:text="@string/to_make_money"
+                        android:layout_marginRight="@dimen/dp15"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape_circle_26_e5220e"
+                        android:layout_width="@dimen/dp87"
+                        android:layout_height="@dimen/dp26"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                    android:id="@+id/withdrawal_btn"
+                    android:textColor="@color/red_text_color"
+                    android:textSize="@dimen/sp14"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="提现兑换明细 >"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp51"/>
+
+            <LinearLayout
+                    android:layout_marginTop="@dimen/dp8"
+                    android:background="@color/white"
+                    android:paddingLeft="@dimen/dp15"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/dp15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:layout_marginTop="@dimen/dp17"
+                        android:textSize="@dimen/sp15"
+                        android:text="@string/matters_needing_attention"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:layout_marginBottom="@dimen/dp20"
+                        android:layout_marginTop="@dimen/dp9"
+                        android:lineSpacingExtra="@dimen/dp3"
+                        android:text="1.提现、兑换申请将在3个工作日内审核到账，请耐心等待\n2.可通过提现兑换明细查询处理状态"
+                        android:id="@+id/matters_needing_attention_content_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.wy.adbook.view.status.StatusCoverView
+            android:id="@+id/status_cover_view"
+            android:layout_below="@+id/title_bar_view"
+            app:loadingView="@layout/layout_loading"
+            tools:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</RelativeLayout>

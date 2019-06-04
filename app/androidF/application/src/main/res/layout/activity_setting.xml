@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            app:title_text="@string/setting"
+            app:left_image="@mipmap/icon_back"
+            android:id="@+id/title_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <RelativeLayout
+            android:id="@+id/cache_item_container"
+            style="@style/setting_item">
+
+        <TextView
+                android:id="@+id/cache_title"
+                style="@style/setting_item_title_tv"
+                android:text="清除缓存"/>
+
+        <TextView
+                android:id="@+id/cache_content"
+                style="@style/setting_item_content_tv"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line_divide"/>
+
+    <RelativeLayout
+            android:id="@+id/comment_on_our_container"
+            style="@style/setting_item">
+
+        <TextView
+                style="@style/setting_item_title_tv"
+                android:text="评价我们"/>
+
+        <TextView
+                style="@style/setting_item_content_tv"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line_divide"/>
+
+    <RelativeLayout
+            android:id="@+id/about_us_container"
+            style="@style/setting_item">
+
+        <TextView
+                style="@style/setting_item_title_tv"
+                android:text="@string/about_us"/>
+
+        <TextView
+                style="@style/setting_item_content_tv"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line_divide"/>
+
+    <TextView
+            android:id="@+id/logout_btn"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/withdraw_from_account"
+            android:layout_marginTop="@dimen/dp147"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp15"
+            android:background="@drawable/shape_circle_45_g_fc6863_to_e60012"
+            android:layout_height="@dimen/dp45"/>
+
+</LinearLayout>

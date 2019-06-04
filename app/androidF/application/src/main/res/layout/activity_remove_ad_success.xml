@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            app:line_divide="false"
+            app:left_image="@mipmap/icon_back"
+            android:id="@+id/title_bar_view"
+            app:title_text="@string/set_up_ads_to_read"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <ImageView
+            android:src="@mipmap/icon_kaitong_seeced"
+            android:layout_marginTop="@dimen/dp88"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/dp67"
+            android:layout_height="@dimen/dp67"/>
+
+    <TextView
+            android:layout_marginTop="@dimen/dp12"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/sp19"
+            android:textColor="@color/black_text_color"
+            android:layout_gravity="center_horizontal"
+            android:text="成功去除广告！"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_gravity="center_horizontal"
+            android:text="现在起20分钟内，您可享受阅读器内免广告阅读"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/remove_ad_complete_tv"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp15"
+            android:text="完成"
+            android:layout_marginTop="@dimen/dp93"
+            android:layout_marginLeft="@dimen/dp17"
+            android:layout_marginRight="@dimen/dp17"
+            android:background="@drawable/shape_circle_45_g_fc6863_to_e60012"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp45"/>
+
+</LinearLayout>

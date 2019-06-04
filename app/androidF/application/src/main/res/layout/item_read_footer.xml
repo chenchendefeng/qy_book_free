@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp109">
+
+    <com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout
+            android:orientation="vertical"
+            app:rightMenuView="@+id/right"
+            app:contentView="@+id/content"
+            android:background="@drawable/shadow_corner16"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp109">
+
+        <RelativeLayout
+                android:id="@+id/content"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/cover_iv"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/default_book_img"
+                    android:layout_marginLeft="@dimen/dp18"
+                    android:layout_centerVertical="true"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="@dimen/dp65"/>
+
+            <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@+id/cover_iv"
+                    android:layout_marginLeft="@dimen/dp20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:includeFontPadding="false"
+                        tools:text="xxxxxx"
+                        android:id="@+id/book_name_tv"
+                        android:textSize="@dimen/sp16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/book_add_time_tv"
+                        android:includeFontPadding="false"
+                        android:layout_marginTop="@dimen/dp20"
+                        tools:text="xxxxx"
+                        android:textSize="@dimen/sp12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+                android:id="@+id/right"
+                android:background="@color/red_text_color"
+                android:layout_width="@dimen/dp75"
+                android:layout_height="match_parent"/>
+
+    </com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout>
+</LinearLayout>

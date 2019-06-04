@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="book_collection_item_btm">
+        <item name="android:layout_marginTop">@dimen/dp8</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/third_black_text_color</item>
+        <item name="android:textSize">@dimen/sp11</item>
+    </style>
+
+    <style name="book_collection_item_top">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/black_text_color</item>
+        <item name="android:textSize">@dimen/sp17</item>
+    </style>
+
+    <style name="cover_book_item">
+        <item name="android:paddingTop">@dimen/dp12</item>
+        <item name="android:paddingBottom">@dimen/dp12</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/dp5</item>
+        <item name="android:textColor">@color/selector_white_selected_8d8d8d_no_select</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp11</item>
+    </style>
+
+    <style name="setting_container_item">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp45</item>
+    </style>
+
+    <style name="setting_container_item_left_tv">
+        <item name="android:textColor">@color/third_black_text_color</item>
+        <item name="android:layout_marginRight">@dimen/dp16</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="setting_container_page_turn_item">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/selector_white_selected_8d8d8d_no_select</item>
+        <item name="android:textSize">@dimen/sp11</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="share_book_item">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="android:textColor">@color/black_text_color</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+</resources>

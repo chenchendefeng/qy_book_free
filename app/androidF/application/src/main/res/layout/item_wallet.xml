@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp15"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp60">
+
+    <TextView
+            android:ellipsize="end"
+            android:lines="1"
+            android:layout_marginTop="@dimen/dp10"
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:includeFontPadding="false"
+            android:layout_height="wrap_content"
+            tools:text="每日30秒计时累计奖励"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/sp15"
+            />
+
+    <TextView
+            android:lines="1"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2019-04-22 15:17:36"
+            android:textColor="@color/third_black_text_color"
+            android:textSize="@dimen/sp12"
+            />
+
+    <TextView
+            android:id="@+id/add_num_tv"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="+21金豆"
+            android:textColor="@color/red_text_color"
+            android:textSize="15sp"
+            />
+
+    <View
+            style="@style/line_divide"
+            android:layout_alignParentBottom="true"
+            />
+</RelativeLayout>

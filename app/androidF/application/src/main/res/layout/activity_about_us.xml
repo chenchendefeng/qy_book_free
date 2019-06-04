@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            android:id="@+id/title_bar_view"
+            app:title_text="@string/about_us"
+            app:left_image="@mipmap/icon_back"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_marginTop="@dimen/dp84"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="@dimen/dp78"
+                android:layout_height="@dimen/dp78"/>
+
+        <TextView
+                android:id="@+id/package_name"
+                android:text="@string/_1_0_0"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <TextView
+            android:textColor="@color/black_text_color"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/sp16"
+            android:text="@string/compony_name"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textColor="@color/third_black_text_color"
+            android:includeFontPadding="false"
+            android:layout_marginTop="@dimen/dp10"
+            android:text="2018qybook.net.co.ltd.all rights reserved"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/sp12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/server_protocol_tv"
+            android:textColor="@color/third_black_text_color"
+            android:text="软件服务协议及隐私政策"
+            android:textSize="@dimen/sp12"
+            android:layout_marginTop="@dimen/dp18"
+            android:layout_marginBottom="@dimen/dp15"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

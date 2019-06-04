@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serverurls>
+    <serverurl name="PROD_ENVIRONMENT">
+        <server_name>生产环境</server_name>
+        <!--api地址-->
+        <api_url>http://www.qybook.net</api_url>
+        <h5_url>http://manager.qybook.net</h5_url>
+    </serverurl>
+
+    <serverurl name="JOINT_ENVIRONMENT">
+        <server_name>联调环境</server_name>
+        <!--api地址-->
+        <api_url>http://192.168.18.212</api_url>
+        <h5_url>http://192.168.18.21:801</h5_url>
+    </serverurl>
+
+</serverurls>

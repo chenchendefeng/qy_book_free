@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/white</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="warning_stroke_color">#d6411f</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+
+    <color name="black_btn_bg_color">#000000</color>
+    <color name="black_btn_bg_pressed_color">#191919</color>
+
+
+    <color name="black_text_color">#292929</color>
+    <color name="second_black_text_color">#3E3837</color>
+    <color name="third_black_text_color">#8D8D8D</color>
+    <color name="color_ff7b6d">#FF7B6D</color>
+
+    <color name="color_8a8a8a">#8A8A8A</color>
+
+    <color name="red_text_color">#E5220E</color>
+    <color name="red_color_30">#4dE5220E</color>
+
+    <color name="text_no_select">#8D8D8D</color>
+    <color name="text_select">#E5220E</color>
+    <color name="color_ff9948">#FF9948</color>
+
+    <color name="black_80">#cd000000</color>
+    <color name="black_70">#b3000000</color>
+    <color name="black_30">#4d000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_color14">#14000000</color>
+
+    <color name="color_999999">#999999</color>
+    <color name="color_f5f5f5">#F5F5F5</color>
+    <color name="color_f9f9f9">#F9F9F9</color>
+    <color name="color_ededed">#EDEDED</color>
+    <color name="color_f0f0f0">#F0F0F0</color>
+    <color name="color_fff4e1">#FFF4E1</color>
+    <color name="color_fff333">#FFE333</color>
+    <color name="color_fc5529">#FC5529</color>
+    <color name="color_ff925d">#FF925D</color>
+    <color name="color_fffcf5">#FFFCF5</color>
+    <color name="color_39b900">#39B900</color>
+    <color name="color_feb06e">#FEB06E</color>
+    <color name="color_454258">#454258</color>
+    <color name="color_ff9e7b">#FF9E7B</color>
+    <color name="color_f85848">#F85848</color>
+    <color name="color_fc6863">#FC6863</color>
+    <color name="color_e60012">#E60012</color>
+    <color name="color_e37643">#e37643</color>
+    <color name="color_8f8f8f">#8f8f8f</color>
+    <color name="color_d8d8d8">#D8D8D8</color>
+
+    <color name="color_ff8226">#ff8226</color>
+    <color name="color_ff5501">#ff5501</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_ffece4">#FFECE4</color>
+    <color name="color_f4f4f4">#F4F4F4</color>
+    <color name="color_42301a">#42301a</color>
+    <color name="color_eadec4">#eadec4</color>
+    <color name="color_1b271e">#1b271e</color>
+    <color name="color_cedcd3">#cedcd3</color>
+    <color name="color_1f2934">#1f2934</color>
+    <color name="color_c7d8e1">#c7d8e1</color>
+    <color name="color_898989">#898989</color>
+    <color name="color_1f1f1f">#1f1f1f</color>
+    <color name="color_cec29c">#CEC29C</color>
+    <color name="color_fa5e5b">#FA5E5B</color>
+    <color name="color_e9101e">#E9101E</color>
+    <color name="color_3e3837">#3e3837</color>
+    <color name="color_ffb098">#FFB098</color>
+    <color name="color_faf6ed">#FAF6ED</color>
+    <color name="color_ffff00">#FFFF00</color>
+    <color name="color_ffed76">#FFED76</color>
+    <color name="color_fe870f">#FE870F</color>
+    <color name="color_fe5608">#FE5608</color>
+    <color name="color_ff1600">#FF1600</color>
+    <color name="color_fffd74">#fffd74</color>
+    <color name="color_f47a3c">#F47A3C</color>
+    <color name="color_e8e8e8">#E8E8E8</color>
+    <color name="color_e60001">#e60001</color>
+    <color name="color_e9e6de">#E9E6DE</color>
+    <color name="color_f5f5f7">#F5F5F7</color>
+    <color name="color_bdbdbd">#BDBDBD</color>
+
+    <!--read-->
+    <color name="nb.read.bg_1">#F9F6ED</color>
+    <color name="nb.read.bg_2">#D4EAD4</color>
+    <color name="nb.read.bg_3">#E3EBF5</color>
+    <color name="nb.read.bg_4">#F8E0E6</color>
+    <color name="nb.read.bg_5">#0D0D0D</color>
+    <color name="nb.read.bg_6">#DDCEC29C</color>
+
+
+    <color name="nb.read.font_1">#292929</color>
+    <color name="nb.read.font_2">#475047</color>
+    <color name="nb.read.font_3">#3A4A64</color>
+    <color name="nb.read.font_4">#AF586A</color>
+    <color name="nb.read.font_5">#4A4D51</color>
+
+    <color name="nb.read.bg.night">#000000</color>
+    <color name="nb.read.font_night">#99ffffff</color>
+
+</resources>

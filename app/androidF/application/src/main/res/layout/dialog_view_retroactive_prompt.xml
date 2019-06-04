@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="416dp">
+
+    <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@mipmap/image_buqian_tips"
+            android:layout_width="@dimen/dp310"
+            android:layout_height="416dp">
+
+        <TextView
+                android:id="@+id/content"
+                android:textColor="@color/black_text_color"
+                android:layout_marginTop="@dimen/dp180"
+                android:layout_marginLeft="@dimen/dp50"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginRight="@dimen/dp50"
+                android:text="@string/retroactive_prompt_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:gravity="center"
+                android:id="@+id/watch_video_for_retroactive_btn"
+                android:text="@string/watch_video_retroactive_free_charge"
+                android:layout_marginTop="@dimen/dp20"
+                android:background="@mipmap/btn_qiandao_shipin"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/dp218"
+                android:textSize="@dimen/sp16"
+                android:textColor="@color/white"
+                android:layout_height="@dimen/dp50"/>
+
+        <TextView
+                android:textSize="@dimen/sp16"
+                android:gravity="center"
+                android:textColor="@color/color_e60001"
+                android:id="@+id/gold_beans_retroactive_btn"
+                android:text="@string/n_gold_beans_retroactive"
+                android:layout_marginTop="@dimen/dp13"
+                android:background="@mipmap/btn_qiandao_jindou"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/dp218"
+                android:layout_height="@dimen/dp50"/>
+
+    </LinearLayout>
+</FrameLayout>

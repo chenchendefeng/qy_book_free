@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingDefaultResource">
+
+    <ImageView
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_marginBottom="@dimen/dp10"
+            android:src="@mipmap/icon_book_add"
+            android:background="@drawable/shape_f5f5f5_stroke2"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_width="@dimen/dp41"
+            android:layout_height="@dimen/dp54"/>
+
+    <TextView
+            android:layout_marginLeft="@dimen/dp10"
+            android:text="@string/add_more_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

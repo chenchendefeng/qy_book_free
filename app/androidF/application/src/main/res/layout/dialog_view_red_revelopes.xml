@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/gif_1"
+                android:src="@mipmap/red_envelopers_dialog_gif_1"
+                android:layout_width="@dimen/dp310"
+                android:layout_height="@dimen/dp410"/>
+
+        <ImageView
+                android:id="@+id/gif_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp105"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/dp188"
+                android:layout_height="@dimen/dp90"/>
+
+        <TextView
+                android:textColor="@color/red_text_color"
+                android:textSize="@dimen/sp30"
+                android:gravity="center"
+                android:text="好的"
+                android:visibility="invisible"
+                android:id="@+id/ok_btn"
+                android:layout_marginBottom="@dimen/dp10"
+                android:layout_alignBottom="@+id/gif_1"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/btn_duihuan_success_cir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</FrameLayout>

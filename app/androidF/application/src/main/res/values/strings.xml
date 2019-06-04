@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">爱读免费小说</string>
+
+    <string name="please_select_gender">请选择性别</string>
+    <string name="recommend_by_gender">根据性别为您推荐合适的书籍</string>
+    <string name="man">男生</string>
+    <string name="woman">女生</string>
+
+    <string name="start_read">开启阅读之旅</string>
+
+    <string name="skip">跳过</string>
+
+
+    <string name="love_free_novel">爱读免费小说</string>
+    <string name="bookcase">书架</string>
+    <string name="book_city">书城</string>
+    <string name="welfare">福利</string>
+    <string name="my">我的</string>
+    <string name="cash_check">现金签到</string>
+    <string name="get_cash_every_day">天天领现金</string>
+    <string name="golden_pig_make_lot_money">金猪赚大钱</string>
+    <string name="new_books">本周新增xxx本书籍</string>
+    <string name="to_promote">推广</string>
+    <string name="add_more_book">添加更多免费书籍</string>
+
+    <string name="recommend">推荐</string>
+
+
+    <string name="new_add_book">本周新增%1$d本书籍</string>
+    <string name="author_classification">%1$s|%1$s</string>
+    <string name="classification">分类</string>
+    <string name="book_num_ben">%1$d本</string>
+    <string name="new_welfare">新手福利</string>
+    <string name="read_welfare">阅读福利</string>
+    <string name="daily_welfare">日常福利</string>
+    <string name="welfare_centre">福利中心</string>
+    <string name="login_to_bring_cash_bonus">登录领现金红包，可提现</string>
+    <string name="cash_amount">现金金额(元)</string>
+    <string name="has_to_earn_cash">已累计赚取现金(元): %1$d</string>
+    <string name="gloden_bean_balance">金豆余额(元)</string>
+    <string name="i_want_change">我要兑换</string>
+    <string name="no_cash_detail">暂无%1$s明细</string>
+    <string name="detailed_system_retain_only_last_3_days_cash">系统只保留最近3天的%1$s明细</string>
+    <string name="book_details">书籍详情</string>
+    <string name="collection">收藏</string>
+    <string name="check_directory">查看目录</string>
+    <string name="everyone_is_watching">大家都在看</string>
+    <string name="to_advertising">去广告</string>
+    <string name="read_complete_free">免费阅读全本</string>
+    <string name="guess_you_like">猜你喜欢</string>
+    <string name="please_enter_book_name">请输入书名</string>
+    <string name="add_bookcase">加入书架</string>
+    <string name="had_read">读过</string>
+    <string name="reading">在读</string>
+    <string name="number_words">字数: %1$s字</string>
+    <string name="n_chapter_ends">完结共%1$d章</string>
+    <string name="previous_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="click_middle_out_menu">点击中间\n呼出菜单</string>
+    <string name="login_text">登录</string>
+    <string name="please_enter_your_phone_number">请输入您的手机号</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="third_party_account_to_log_in">第三方账号登录</string>
+    <string name="wx_login">微信登录</string>
+    <string name="please_enter_your_password">请输入您的密码</string>
+    <string name="login_on_behalf_you_have_read_agreed_to">登录即代表您已阅读并同意</string>
+    <string name="user_agreement">《用户协议》</string>
+    <string name="with">及</string>
+    <string name="privacy_agreement">《隐私协议》</string>
+
+    <string name="to_obtain_n_seconds">%1$d秒后重新获取</string>
+    <string name="loading_cn">加载中...</string>
+    <string name="invite_friends_to_bring_red_envelope">邀请好友领红包</string>
+    <string name="invite_good_ulead_earn_n">限时！邀请好友立赚%1$s元！</string>
+    <string name="input_friend_bonus_code_brought_cash">输入好友红包码领现金</string>
+    <string name="read_footprint">阅读足迹</string>
+    <string name="message_notification">消息通知</string>
+    <string name="membership_benefits">会员福利</string>
+    <string name="fortunella_venosa_double_reward">金豆奖励翻倍</string>
+    <string name="withdrawal_seconds_to_account">提现秒到账</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="help_center">帮助中心</string>
+    <string name="system_settings">系统设置</string>
+    <string name="consecutive_sign_in">您已连续签到</string>
+    <string name="zero">0</string>
+    <string name="tian">天</string>
+    <string name="n_tian">%1$d天</string>
+    <string name="sign_in_to_highest_available_in_succession">提示:连续签到最高可获得</string>
+    <string name="n_gold_beans">%1$d金豆</string>
+    <string name="prize_correct">有奖竞答</string>
+    <string name="help_you_play_task_win_fortunella_venosa_reward">助你玩转任务，赢取丰厚金豆奖励</string>
+    <string name="to_answer_questions">去答题</string>
+    <string name="read_n_sec_timer_reward">阅读%1$d秒计时奖励</string>
+    <string name="read_longer_more_fortunella_venosa_cumulative_gain">阅读时间越久，累计获得的金豆越多</string>
+    <string name="to_read">去阅读</string>
+    <string name="daily_reading">每日阅读</string>
+    <string name="finish_reading_tasks_often_get_bonus">完成阅读时常任务获得额外奖励</string>
+    <string name="watching_video_from_advertising">看视频免广告</string>
+    <string name="available_n_minutes_full_full_reading_ad_free_privileges">可获得%1$d分钟全场全场阅读无广告特权</string>
+    <string name="to_watch">去观看</string>
+    <string name="daily_share">每日分享</string>
+    <string name="share_to_friends_and_wechat_group_available_n_gold_beans">分享至朋友圈、微信群可获得%1$d金豆奖励</string>
+    <string name="to_share">去分享</string>
+    <string name="invite_friends_cash_rewards">邀请好友获现金奖励</string>
+    <string name="invite_friends_both_sides_cash_bonus">邀请好友双方双方获现金红包，可提现</string>
+    <string name="to_invite">去邀请</string>
+    <string name="lucky_guy">幸运转盘</string>
+    <string name="fortunella_venosa_cash_envelopes_winning_100p">金豆、现金红包，100%中奖</string>
+    <string name="to_draw">去抽奖</string>
+    <string name="n_minutes">%1$d分钟</string>
+    <string name="fill">补</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="free_advertising">免广告</string>
+    <string name="directory_text">目录</string>
+    <string name="night_text">夜间</string>
+    <string name="during_day">白天</string>
+    <string name="setting_text">设置</string>
+    <string name="aa">Aa</string>
+    <string name="download_text">下载</string>
+    <string name="vprevious_chapter">上一章</string>
+    <string name="next_chapter">下一章</string>
+    <string name="brightness">亮度</string>
+    <string name="type_size">字号</string>
+    <string name="aa_down">Aa-</string>
+    <string name="aa_up">Aa+</string>
+    <string name="up_down_text">上下</string>
+    <string name="smooth_text">平滑</string>
+    <string name="simulation_text">仿真</string>
+    <string name="automatic_text">自动</string>
+    <string name="all">全部</string>
+    <string name="book_end">完结</string>
+    <string name="book_serial">连载</string>
+    <string name="in_batch">换一批</string>
+    <string name="has_been_in_bookcase">已在书架</string>
+    <string name="delete">删除</string>
+
+    <string name="nb.download.chapter_scope">(%1$d-%2$d章)</string>
+    <string name="n_slash_n">%1$d/%2$d</string>
+
+    <string name="start">开启</string>
+    <string name="sign_in_immediately">立即签到</string>
+    <string name="retroactive_immediately"><![CDATA[立即补签>]]></string>
+    <string name="leakage_sign_to_continue_sign">漏签%1$d天，补签之后可达到连续%2$d天，</string>
+    <string name="for_n1_skip_to_n_chapter">当前%1$d\n跳转至%2$d章</string>
+    <string name="has_been_signed_in_n_days">已连续签到%1$d天</string>
+    <string name="watch_short_video_bring_n_gold_beans">看短视频再领%1$d金豆</string>
+
+    <string name="rule_sign_text">1.日常签到，奖励20金豆\n2.首次签到，奖励100金豆\n3.连续签到5天，奖励150金豆，连续签到10天奖励300金豆\n4.每连续签到10天的倍数时，奖励300金豆（特殊连续天数
+除外）\n5.特殊连续天数奖励连续签到30天，奖励1000金豆\n · 连续签到50天，奖励5000金豆\n · 连续签到100天，奖励10000金豆\n · 后没多连续签到50天，奖励10000金豆（如连续签到150天、200天等）</string>
+
+    <string name="retroactive_rule_text">1.你可以点击签到日历中的“补”字进行补签。\n2.你可以补签当前日期以前5天以内的漏签，超过5天的不可
+补。\n3.你可以使用100金豆补签，也可以通过观看完整的小视频进行免费补签。\n4.补签后达成连续签到要求，可获得相应奖励</string>
+
+    <string name="sign_in_rules_title">签到规则</string>
+    <string name="retroactive_rules_title">补签规则</string>
+
+    <string name="retroactive_prompt_text">您可以通过观看小视频进行免费补签，也可以使用200金豆进行补签，小视频市场约15～30秒，需要观看完整小视频。</string>
+    <string name="watch_video_retroactive_free_charge">看视频免费补签</string>
+    <string name="n_gold_beans_retroactive">%1$d金豆补签</string>
+    <string name="small_video_about_15_to_30_seconds_long_midway_exits_no_reward">小视频约长15-30秒，中途退出没有奖励</string>
+    <string name="join_shelf_reading_any_time">加入书架，随时阅读</string>
+    <string name="net_error">网络错误</string>
+    <string name="i_want_to_withdraw">我要提现</string>
+    <string name="my_fortunella_venosa">我的金豆: %1$d</string>
+
+    <string name="detail">明细</string>
+    <string name="my_cash_n">我的现金:  %1$d</string>
+    <string name="invite_good_ulead_earn_n_dollars_in_cash">邀请好友立赚%1$d元现金</string>
+    <string name="to_make_money">去赚钱</string>
+    <string name="matters_needing_attention">注意事项</string>
+    <string name="set_up_ads_to_read">立享广告阅读</string>
+    <string name="red_envelopes_for_code">红包兑换码</string>
+    <string name="submit_text">提交</string>
+    <string name="note_cannot_be_modified_after_submission">提示：提交后不可修改</string>
+    <string name="has_been_submitted">已提交</string>
+    <string name="opening_member">开通会员</string>
+    <string name="rights_interests_members">会员权益</string>
+    <string name="limited_time_preferential">限时特惠</string>
+    <string name="immediately_opened">立即开通</string>
+    <string name="please_enter_your_consult_content">请输入您要咨询的内容...</string>
+    <string name="about_us">关于我们</string>
+    <string name="_1_0_0">1.0.0</string>
+    <string name="compony_name">深圳维奕科技有限公司</string>
+    <string name="setting">设置</string>
+    <string name="withdraw_from_account">退出账号</string>
+    <string name="more">更多</string>
+    <string name="my_good_friend">我的好友</string>
+    <string name="invite_more_friends">邀请更多好友</string>
+    <string name="poke_ta">戳TA一下</string>
+    <string name="after_installation_is_complete_fill_in_red_envelope_code_can_receive_red_envelope">安装完成后，填写红包码即可领取红包 拷贝</string>
+    <string name="open_wx_to_scan_qr_code_from_pic_1">请打开微信，右上角</string>
+    <string name="open_wx_to_scan_qr_code_from_pic_2">“+”</string>
+    <string name="open_wx_to_scan_qr_code_from_pic_3">使\n用</string>
+    <string name="open_wx_to_scan_qr_code_from_pic_4">“扫一扫”</string>
+    <string name="open_wx_to_scan_qr_code_from_pic_5">扫码图中二维码</string>
+    <string name="no_withdrawal_for_record">暂无提现兑换记录</string>
+    <string name="withdrawal_for_record">提现兑换记录</string>
+    <string name="basic_information">基本信息</string>
+    <string name="please_enter">请输入</string>
+    <string name="confirm_change">确认修改</string>
+
+</resources>

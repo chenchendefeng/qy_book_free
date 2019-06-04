@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/center_container"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp90"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@mipmap/image_share"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_marginTop="@dimen/dp165"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/share_center_iv"
+                android:layout_width="@dimen/dp136"
+                android:layout_height="@dimen/dp136"/>
+
+        <TextView
+                android:layout_marginTop="@dimen/dp5"
+                android:textSize="@dimen/sp9"
+                android:textColor="@color/color_fffd74"
+                android:text="红包码"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <FrameLayout
+                android:layout_marginLeft="@dimen/dp2"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/shape_color_f47a3c_btm_r5"
+                android:layout_width="@dimen/dp160"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/red_package_tv"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="XXXXXX"
+                    android:includeFontPadding="false"
+                    android:textSize="@dimen/sp15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:background="@color/color_f4f4f4"
+            android:gravity="center_vertical"
+            android:layout_above="@+id/cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <include
+                layout="@layout/layout_share"/>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/cancel_btn"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:textColor="@color/black_text_color"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"/>
+
+</RelativeLayout>

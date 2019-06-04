@@ -1,0 +1,82 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "config.gradle"
+buildscript {
+    ext.kotlin_version = '1.3.31'
+    ext.kotlin_version = '1.3.10'
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        google()
+        maven {
+            url "http://mvn.mob.com/android"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
+        classpath 'com.mob.sdk:MobSDK:2018.0319.1724'
+        classpath "com.tencent.bugly:tinker-support:1.1.2"
+        classpath 'com.mob.sdk:MobSDK:+'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        flatDir {
+            dirs 'libs'
+        }
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+        maven { url "https://dl.bintray.com/tencentqcloudterminal/maven" }
+        maven { url "https://jitpack.io" }//RxCache 需要 jitpack 仓库
+        maven { url "https://maven.google.com" }//Support-library 需要 Google 仓库
+        google() //AndroidStudio v3.0 可以使用 google() 替代 maven { url "https://maven.google.com" }
+
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+//---------
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+ext {
+    //网络环境
+    serverIpType = SERVER_IP_TYPE
+    //是否显示日志 (正式环境 false)
+    logEnable = LOG_ENABLE
+    //是否调试webview (正式环境 false)
+    webDebug = WEB_DEBUG
+    //BUGLY是否调试
+    buglyDebug = BUGLY_DEBUG
+    //是否校验证书 (正式环境 true)
+    appValidateHttpsCA = APP_VALIDATE_HTTPS_CA
+    //API接口是否AES加密(正式环境为true)
+    apiAesEncryptEnable = API_AES_ENCRYPT_ENABLE
+
+    //如果总开关关闭，复位默认值
+    if (!DEBUG_ENABLE.toBoolean()) {
+        serverIpType = "PROD_ENVIRONMENT"
+        logEnable = false
+        appValidateHttpsCA = true
+        apiAesEncryptEnable = true
+        buglyDebug = false
+        webDebug = false
+
+    }
+}
+
+

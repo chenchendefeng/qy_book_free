@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.freebookqy.viewlib.TitleBarView
+            android:id="@+id/title_bar_view"
+            app:left_image="@mipmap/icon_back"
+            app:title_text="签到日历"
+            app:line_divide="false"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <RelativeLayout
+                            android:id="@+id/sign_top_btn_container"
+                            android:background="@drawable/selector_btn_qiandao"
+                            android:layout_marginTop="@dimen/dp13"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="@dimen/dp292"
+                            android:layout_height="@dimen/dp64">
+
+                        <LinearLayout
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:layout_centerInParent="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            <TextView
+                                    android:id="@+id/sign_top_tv_1"
+                                    android:includeFontPadding="false"
+                                    android:textSize="@dimen/sp16"
+                                    tools:text="@string/has_been_signed_in_n_days"
+                                    android:textColor="@color/selector_8d8d8d_unenable_white_enable"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            <TextView
+                                    android:id="@+id/sign_top_tv_2"
+                                    android:textColor="@color/selector_8d8d8d_unenable_white_enable"
+                                    android:includeFontPadding="false"
+                                    android:textSize="@dimen/sp12"
+                                    android:layout_marginTop="@dimen/dp8"
+                                    tools:text="@string/watch_short_video_bring_n_gold_beans"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <TextView
+                            android:layout_marginTop="@dimen/dp15"
+                            android:id="@+id/can_continuous_sign_in_tip_tv"
+                            android:textSize="@dimen/sp13"
+                            android:layout_gravity="center_horizontal"
+                            tools:text="5天可补签"
+                            android:includeFontPadding="false"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <com.freebookqy.viewlib.scrollview.MyHorizontalScrollView
+                            android:scrollbars="horizontal"
+                            android:layout_marginTop="@dimen/dp22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <FrameLayout
+                                    android:id="@+id/continue_sign_tip_container"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                <TextView
+                                        android:layout_marginLeft="@dimen/dp8"
+                                        android:id="@+id/continue_sign_tip_tv"
+                                        android:paddingLeft="@dimen/dp5"
+                                        android:includeFontPadding="false"
+                                        android:paddingRight="@dimen/dp5"
+                                        android:gravity="center_horizontal"
+                                        android:textColor="@color/white"
+                                        tools:text="连签100天"
+                                        android:textSize="@dimen/sp13"
+                                        android:background="@mipmap/icon_lianqian"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                            </FrameLayout>
+
+                            <RelativeLayout
+                                    android:layout_marginTop="@dimen/dp1"
+                                    android:layout_below="@+id/continue_sign_tip_container"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                <android.support.v7.widget.RecyclerView
+                                        android:id="@+id/continuous_sign_in_rv"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </com.freebookqy.viewlib.scrollview.MyHorizontalScrollView>
+
+                    <android.support.v7.widget.RecyclerView
+                            android:layout_marginTop="@dimen/dp27"
+                            android:id="@+id/sign_calendar_rv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    <View style="@style/item_welfare_divide"/>
+
+                    <com.wy.adbook.view.RuleTitleView
+                            tools:visibility="visible"
+                            android:visibility="gone"
+                            android:id="@+id/sign_rule_title"
+                            android:layout_marginTop="@dimen/dp28"
+                            android:layout_marginLeft="@dimen/dp15"
+                            android:layout_marginRight="@dimen/dp15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:textSize="@dimen/sp13"
+                            android:layout_marginTop="@dimen/dp30"
+                            tools:visibility="visible"
+                            android:visibility="gone"
+                            android:layout_marginBottom="@dimen/dp12"
+                            android:layout_marginLeft="@dimen/dp15"
+                            android:layout_marginRight="@dimen/dp15"
+                            android:id="@+id/sign_rule_tv"
+                            android:textColor="@color/black_text_color"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+
+                    <com.wy.adbook.view.RuleTitleView
+                            tools:visibility="visible"
+                            android:visibility="gone"
+                            android:id="@+id/continue_sign_rule_title"
+                            android:layout_marginTop="@dimen/dp28"
+                            android:layout_marginLeft="@dimen/dp15"
+                            android:layout_marginRight="@dimen/dp15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:textSize="@dimen/sp13"
+                            tools:visibility="visible"
+                            android:layout_marginTop="@dimen/dp30"
+                            android:visibility="gone"
+                            android:layout_marginBottom="@dimen/dp40"
+                            android:layout_marginLeft="@dimen/dp15"
+                            android:layout_marginRight="@dimen/dp15"
+                            android:id="@+id/continue_sign_rule_tv"
+                            android:textColor="@color/black_text_color"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <com.wy.adbook.view.status.StatusCoverView
+                tools:visibility="invisible"
+                android:visibility="invisible"
+                app:loadingView="@layout/layout_loading"
+                android:id="@+id/status_cover_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </FrameLayout>
+
+</LinearLayout>

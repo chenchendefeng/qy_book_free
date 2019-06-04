@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044318C1B015184D084F6939 /* libPods-QYBookFree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A033A1AA65428F343E9250ED /* libPods-QYBookFree.a */; };
+		5F3D0A1A22706F6900DDCF4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D0A1922706F6900DDCF4D /* AppDelegate.m */; };
+		5F3D0A1D22706F6900DDCF4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D0A1C22706F6900DDCF4D /* ViewController.m */; };
+		5F3D0A2222706F8100DDCF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3D0A2122706F8100DDCF4D /* Assets.xcassets */; };
+		5F3D0A2822706F8100DDCF4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D0A2722706F8100DDCF4D /* main.m */; };
+		5F3D0A3222706F8100DDCF4D /* QYBookFreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D0A3122706F8100DDCF4D /* QYBookFreeTests.m */; };
+		5F3D0A3D22706F8100DDCF4D /* QYBookFreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D0A3C22706F8100DDCF4D /* QYBookFreeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F3D0A2E22706F8100DDCF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3D0A0D22706F6900DDCF4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3D0A1422706F6900DDCF4D;
+			remoteInfo = QYBookFree;
+		};
+		5F3D0A3922706F8100DDCF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3D0A0D22706F6900DDCF4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3D0A1422706F6900DDCF4D;
+			remoteInfo = QYBookFree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35EA2275CA1F0B66B4095C6B /* Pods-QYBookFree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYBookFree.debug.xcconfig"; path = "Target Support Files/Pods-QYBookFree/Pods-QYBookFree.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3D0A1522706F6900DDCF4D /* QYBookFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYBookFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3D0A1822706F6900DDCF4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F3D0A1922706F6900DDCF4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F3D0A1B22706F6900DDCF4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F3D0A1C22706F6900DDCF4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F3D0A2122706F8100DDCF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F3D0A2622706F8100DDCF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3D0A2722706F8100DDCF4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F3D0A2D22706F8100DDCF4D /* QYBookFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYBookFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3D0A3122706F8100DDCF4D /* QYBookFreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYBookFreeTests.m; sourceTree = "<group>"; };
+		5F3D0A3322706F8100DDCF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3D0A3822706F8100DDCF4D /* QYBookFreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYBookFreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3D0A3C22706F8100DDCF4D /* QYBookFreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYBookFreeUITests.m; sourceTree = "<group>"; };
+		5F3D0A3E22706F8100DDCF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A033A1AA65428F343E9250ED /* libPods-QYBookFree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QYBookFree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92C839F4A41D07923BCA2FD /* Pods-QYBookFree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYBookFree.release.xcconfig"; path = "Target Support Files/Pods-QYBookFree/Pods-QYBookFree.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3D0A1222706F6900DDCF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044318C1B015184D084F6939 /* libPods-QYBookFree.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3D0A2A22706F8100DDCF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3D0A3522706F8100DDCF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5733F6243347AD5BE70C5B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35EA2275CA1F0B66B4095C6B /* Pods-QYBookFree.debug.xcconfig */,
+				B92C839F4A41D07923BCA2FD /* Pods-QYBookFree.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F3D0A0C22706F6900DDCF4D = {
+			isa = PBXGroup;
+			children = (
+				5F3D0A1722706F6900DDCF4D /* QYBookFree */,
+				5F3D0A3022706F8100DDCF4D /* QYBookFreeTests */,
+				5F3D0A3B22706F8100DDCF4D /* QYBookFreeUITests */,
+				5F3D0A1622706F6900DDCF4D /* Products */,
+				5733F6243347AD5BE70C5B2E /* Pods */,
+				D625795AE5FC482689DE6567 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3D0A1622706F6900DDCF4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D0A1522706F6900DDCF4D /* QYBookFree.app */,
+				5F3D0A2D22706F8100DDCF4D /* QYBookFreeTests.xctest */,
+				5F3D0A3822706F8100DDCF4D /* QYBookFreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F3D0A1722706F6900DDCF4D /* QYBookFree */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D0A1822706F6900DDCF4D /* AppDelegate.h */,
+				5F3D0A1922706F6900DDCF4D /* AppDelegate.m */,
+				5F3D0A1B22706F6900DDCF4D /* ViewController.h */,
+				5F3D0A1C22706F6900DDCF4D /* ViewController.m */,
+				5F3D0A2122706F8100DDCF4D /* Assets.xcassets */,
+				5F3D0A2622706F8100DDCF4D /* Info.plist */,
+				5F3D0A2722706F8100DDCF4D /* main.m */,
+			);
+			path = QYBookFree;
+			sourceTree = "<group>";
+		};
+		5F3D0A3022706F8100DDCF4D /* QYBookFreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D0A3122706F8100DDCF4D /* QYBookFreeTests.m */,
+				5F3D0A3322706F8100DDCF4D /* Info.plist */,
+			);
+			path = QYBookFreeTests;
+			sourceTree = "<group>";
+		};
+		5F3D0A3B22706F8100DDCF4D /* QYBookFreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D0A3C22706F8100DDCF4D /* QYBookFreeUITests.m */,
+				5F3D0A3E22706F8100DDCF4D /* Info.plist */,
+			);
+			path = QYBookFreeUITests;
+			sourceTree = "<group>";
+		};
+		D625795AE5FC482689DE6567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A033A1AA65428F343E9250ED /* libPods-QYBookFree.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3D0A1422706F6900DDCF4D /* QYBookFree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3D0A4122706F8100DDCF4D /* Build configuration list for PBXNativeTarget "QYBookFree" */;
+			buildPhases = (
+				0295D574917C8BE1C4358EE1 /* [CP] Check Pods Manifest.lock */,
+				5F3D0A1122706F6900DDCF4D /* Sources */,
+				5F3D0A1222706F6900DDCF4D /* Frameworks */,
+				5F3D0A1322706F6900DDCF4D /* Resources */,
+				E41EE06B2BD5AEFF39852C77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYBookFree;
+			productName = QYBookFree;
+			productReference = 5F3D0A1522706F6900DDCF4D /* QYBookFree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F3D0A2C22706F8100DDCF4D /* QYBookFreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3D0A4422706F8100DDCF4D /* Build configuration list for PBXNativeTarget "QYBookFreeTests" */;
+			buildPhases = (
+				5F3D0A2922706F8100DDCF4D /* Sources */,
+				5F3D0A2A22706F8100DDCF4D /* Frameworks */,
+				5F3D0A2B22706F8100DDCF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3D0A2F22706F8100DDCF4D /* PBXTargetDependency */,
+			);
+			name = QYBookFreeTests;
+			productName = QYBookFreeTests;
+			productReference = 5F3D0A2D22706F8100DDCF4D /* QYBookFreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F3D0A3722706F8100DDCF4D /* QYBookFreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3D0A4722706F8100DDCF4D /* Build configuration list for PBXNativeTarget "QYBookFreeUITests" */;
+			buildPhases = (
+				5F3D0A3422706F8100DDCF4D /* Sources */,
+				5F3D0A3522706F8100DDCF4D /* Frameworks */,
+				5F3D0A3622706F8100DDCF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3D0A3A22706F8100DDCF4D /* PBXTargetDependency */,
+			);
+			name = QYBookFreeUITests;
+			productName = QYBookFreeUITests;
+			productReference = 5F3D0A3822706F8100DDCF4D /* QYBookFreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F3D0A0D22706F6900DDCF4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jordancz;
+				TargetAttributes = {
+					5F3D0A1422706F6900DDCF4D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5F3D0A2C22706F8100DDCF4D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F3D0A1422706F6900DDCF4D;
+					};
+					5F3D0A3722706F8100DDCF4D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F3D0A1422706F6900DDCF4D;
+					};
+				};
+			};
+			buildConfigurationList = 5F3D0A1022706F6900DDCF4D /* Build configuration list for PBXProject "QYBookFree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F3D0A0C22706F6900DDCF4D;
+			productRefGroup = 5F3D0A1622706F6900DDCF4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F3D0A1422706F6900DDCF4D /* QYBookFree */,
+				5F3D0A2C22706F8100DDCF4D /* QYBookFreeTests */,
+				5F3D0A3722706F8100DDCF4D /* QYBookFreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F3D0A1322706F6900DDCF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3D0A2222706F8100DDCF4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3D0A2B22706F8100DDCF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3D0A3622706F8100DDCF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0295D574917C8BE1C4358EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QYBookFree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41EE06B2BD5AEFF39852C77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYBookFree/Pods-QYBookFree-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYBookFree/Pods-QYBookFree-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F3D0A1122706F6900DDCF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3D0A1D22706F6900DDCF4D /* ViewController.m in Sources */,
+				5F3D0A2822706F8100DDCF4D /* main.m in Sources */,
+				5F3D0A1A22706F6900DDCF4D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3D0A2922706F8100DDCF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3D0A3222706F8100DDCF4D /* QYBookFreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3D0A3422706F8100DDCF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3D0A3D22706F8100DDCF4D /* QYBookFreeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F3D0A2F22706F8100DDCF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3D0A1422706F6900DDCF4D /* QYBookFree */;
+			targetProxy = 5F3D0A2E22706F8100DDCF4D /* PBXContainerItemProxy */;
+		};
+		5F3D0A3A22706F8100DDCF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3D0A1422706F6900DDCF4D /* QYBookFree */;
+			targetProxy = 5F3D0A3922706F8100DDCF4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F3D0A3F22706F8100DDCF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F3D0A4022706F8100DDCF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F3D0A4222706F8100DDCF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35EA2275CA1F0B66B4095C6B /* Pods-QYBookFree.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F72PRN2F;
+				INFOPLIST_FILE = QYBookFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weiyi.Qianyue.QYBookFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5F3D0A4322706F8100DDCF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92C839F4A41D07923BCA2FD /* Pods-QYBookFree.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F72PRN2F;
+				INFOPLIST_FILE = QYBookFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weiyi.Qianyue.QYBookFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5F3D0A4522706F8100DDCF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F72PRN2F;
+				INFOPLIST_FILE = QYBookFreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weiyi.Qianyue.QYBookFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYBookFree.app/QYBookFree";
+			};
+			name = Debug;
+		};
+		5F3D0A4622706F8100DDCF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F72PRN2F;
+				INFOPLIST_FILE = QYBookFreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weiyi.Qianyue.QYBookFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYBookFree.app/QYBookFree";
+			};
+			name = Release;
+		};
+		5F3D0A4822706F8100DDCF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F72PRN2F;
+				INFOPLIST_FILE = QYBookFreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weiyi.Qianyue.QYBookFreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QYBookFree;
+			};
+			name = Debug;
+		};
+		5F3D0A4922706F8100DDCF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3F72PRN2F;
+				INFOPLIST_FILE = QYBookFreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weiyi.Qianyue.QYBookFreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QYBookFree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F3D0A1022706F6900DDCF4D /* Build configuration list for PBXProject "QYBookFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3D0A3F22706F8100DDCF4D /* Debug */,
+				5F3D0A4022706F8100DDCF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3D0A4122706F8100DDCF4D /* Build configuration list for PBXNativeTarget "QYBookFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3D0A4222706F8100DDCF4D /* Debug */,
+				5F3D0A4322706F8100DDCF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3D0A4422706F8100DDCF4D /* Build configuration list for PBXNativeTarget "QYBookFreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3D0A4522706F8100DDCF4D /* Debug */,
+				5F3D0A4622706F8100DDCF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3D0A4722706F8100DDCF4D /* Build configuration list for PBXNativeTarget "QYBookFreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3D0A4822706F8100DDCF4D /* Debug */,
+				5F3D0A4922706F8100DDCF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F3D0A0D22706F6900DDCF4D /* Project object */;
+}

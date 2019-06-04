@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:enabled="true"
+            app:showAsAction="ifRoom"
+            android:id="@+id/action_bookcase"
+            android:title="@string/bookcase"
+            app:itemTextColor="@color/selector_navigation_text"
+            android:icon="@drawable/selector_icon_bookcase"/>
+    <item
+            android:enabled="true"
+            app:showAsAction="ifRoom"
+            android:id="@+id/action_book_city"
+            android:title="@string/book_city"
+            app:itemTextColor="@color/selector_navigation_text"
+
+            android:icon="@drawable/selector_icon_book_city"/>
+    <item
+            android:enabled="true"
+            app:showAsAction="ifRoom"
+            android:id="@+id/action_welfare"
+            android:title="@string/welfare"
+            app:itemTextColor="@color/selector_navigation_text"
+            android:icon="@drawable/selector_icon_welfare"/>
+
+    <item
+            android:enabled="true"
+            app:showAsAction="ifRoom"
+            android:id="@+id/action_my"
+            android:title="@string/my"
+            app:itemTextColor="@color/selector_navigation_text"
+            android:icon="@drawable/selector_icon_my"/>
+</menu>

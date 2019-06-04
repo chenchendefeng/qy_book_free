@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/back_iv"
+                android:layout_marginLeft="@dimen/dp8"
+                android:padding="@dimen/dp10"
+                android:src="@mipmap/icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <FrameLayout
+                android:layout_toRightOf="@+id/back_iv"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp15"
+                android:elevation="@dimen/dp1"
+                tools:background="@null"
+                android:background="@drawable/shape_14000000_1stroke_2corner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp30">
+
+            <EditText
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    tools:visibility="invisible"
+                    android:id="@+id/search_et"
+                    android:imeOptions="actionSearch"
+                    android:hint="@string/please_enter_book_name"
+                    android:drawablePadding="@dimen/dp10"
+                    tools:hint="fsdjfsd"
+                    android:background="@null"
+                    android:textSize="@dimen/sp13"
+                    android:textColorHint="@color/third_black_text_color"
+                    android:textColor="@color/black_text_color"
+                    android:paddingLeft="@dimen/dp10"
+                    android:drawableLeft="@mipmap/icon_search_gray"
+                    android:layout_marginRight="@dimen/dp40"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp30"/>
+        </FrameLayout>
+
+
+        <ImageView
+                android:clickable="true"
+                android:padding="@dimen/dp10"
+                android:id="@+id/delete_iv"
+                android:visibility="invisible"
+                tools:visibility="visible"
+                android:src="@mipmap/icon_login_cancle"
+                android:layout_marginRight="@dimen/dp15"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/guess_like_container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <FrameLayout
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:id="@+id/top_container"
+                    android:layout_marginTop="@dimen/dp20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:layout_marginLeft="@dimen/dp25"
+                        android:textColor="@color/black_text_color"
+                        android:textSize="@dimen/sp16"
+                        android:layout_width="wrap_content"
+                        android:text="@string/guess_you_like"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:layout_marginRight="@dimen/dp15"
+                        android:id="@+id/in_batch_tv"
+                        android:textSize="@dimen/sp13"
+                        android:text="@string/in_batch"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </FrameLayout>
+
+            <android.support.v7.widget.RecyclerView
+                    android:layout_marginTop="@dimen/dp10"
+                    android:paddingLeft="@dimen/dp25"
+                    android:paddingRight="@dimen/dp25"
+                    android:id="@+id/search_guess_like_rv"
+                    android:clipToPadding="false"
+                    android:paddingBottom="@dimen/dp50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+                android:visibility="invisible"
+                android:id="@+id/refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                    android:layout_marginTop="@dimen/dp10"
+                    android:paddingLeft="@dimen/dp25"
+                    android:paddingRight="@dimen/dp25"
+                    android:id="@+id/search_rv"
+                    android:clipToPadding="false"
+                    android:paddingBottom="@dimen/dp50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

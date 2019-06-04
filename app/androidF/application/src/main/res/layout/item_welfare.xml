@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <View
+            style="@style/line_divide"/>
+
+    <RelativeLayout
+            android:layout_marginTop="@dimen/dp17"
+            android:paddingBottom="@dimen/dp17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/title_container"
+                android:layout_marginLeft="@dimen/dp15"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/title_name_tv"
+                    android:text="有奖答题"
+                    android:includeFontPadding="false"
+                    android:textSize="@dimen/sp17"
+                    android:textColor="@color/black_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <FrameLayout
+                    android:id="@+id/right_red_tip_container"
+                    android:layout_marginLeft="@dimen/dp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/red_tip_tv"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="@dimen/dp15"
+                        android:background="@drawable/shape_circle_cornner_17h_fff4e1_bg"
+                        android:textColor="@color/red_text_color"
+                        android:layout_marginLeft="10dp"
+                        android:paddingRight="@dimen/dp10"
+                        tools:text="+600"
+                        android:gravity="center_vertical"
+                        android:textSize="@dimen/sp9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp17"/>
+
+                <ImageView
+                        android:id="@+id/red_tip_iv"
+                        tools:background="@mipmap/icon_jindou"
+                        android:layout_width="@dimen/dp20"
+                        android:layout_height="@dimen/dp20"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/item_des_tv"
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_marginTop="@dimen/dp6"
+                tools:text="asjdfkadf"
+                android:layout_below="@+id/title_container"
+                android:textColor="@color/third_black_text_color"
+                android:textSize="@dimen/sp13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/right_btn"
+                android:layout_marginTop="@dimen/dp4"
+                android:layout_alignTop="@+id/title_container"
+                tools:text="jsdf"
+                android:gravity="center"
+                android:textColor="@color/red_text_color"
+                android:layout_marginRight="@dimen/dp15"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/shape_circle_30_ffe5220e_1stroke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>

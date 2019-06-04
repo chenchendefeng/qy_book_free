@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <FrameLayout
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        <ImageView
+                android:background="@color/white"
+                android:src="@mipmap/welcome"
+                android:id="@+id/welcome_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp105">
+
+        <ImageView
+                android:src="@mipmap/welcome_bottom"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:visibility="invisible"
+                android:layout_gravity="right|center_vertical"
+                android:id="@+id/skip_tv"
+                android:padding="@dimen/dp20"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:text="@string/skip"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:visibility="invisible"
+                android:layout_gravity="right|center_vertical"
+                android:id="@+id/skip_tv2"
+                android:padding="@dimen/dp20"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:text="@string/start"
+                android:layout_height="wrap_content"/>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

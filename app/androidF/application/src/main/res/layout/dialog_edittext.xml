@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:orientation="vertical"
+             tools:background="@color/black_20"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:background="@drawable/shape_white_bg_5corner"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/dp272"
+            android:layout_height="@dimen/dp160">
+
+        <TextView
+                android:id="@+id/title_name_tv"
+                tools:text="修改昵称"
+                android:textColor="@color/black_text_color"
+                android:layout_marginTop="@dimen/dp22"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <EditText
+                android:id="@+id/edit_text"
+                android:paddingLeft="@dimen/dp10"
+                android:textSize="@dimen/sp13"
+                android:textColor="@color/black_text_color"
+                android:textColorHint="@color/third_black_text_color"
+                android:hint="@string/please_enter"
+                android:layout_marginTop="@dimen/dp18"
+                android:background="@drawable/shape_f5f5f5_1stroke_5corner"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/title_name_tv"
+                android:layout_width="@dimen/dp238"
+                android:layout_height="@dimen/dp40"/>
+
+        <View
+                android:layout_above="@+id/btn_container"
+                style="@style/line_divide"
+                />
+
+        <LinearLayout
+                android:id="@+id/btn_container"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp47">
+
+            <TextView
+                    android:id="@+id/cancel_btn"
+                    android:gravity="center"
+                    android:textColor="@color/third_black_text_color"
+                    android:text="@string/cancel"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+
+            <View
+                    style="@style/line_divide"
+                    android:layout_width="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/dp30"/>
+
+            <TextView
+                    android:id="@+id/confirm_btn"
+                    android:textColor="@color/red_text_color"
+                    android:gravity="center"
+                    android:text="@string/confirm_change"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

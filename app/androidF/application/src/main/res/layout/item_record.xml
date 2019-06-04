@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp61">
+
+    <LinearLayout
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                tools:text="兑换 1 元"
+                android:id="@+id/withdrawal_money_tv"
+                android:textSize="@dimen/sp15"
+                android:textColor="@color/black_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_marginTop="@dimen/dp10"
+                tools:text="2019-04-22 15:17:36"
+                android:id="@+id/withdrawal_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_marginRight="@dimen/dp10"
+            tools:src="@mipmap/icon_tixian_fair"
+            android:layout_toLeftOf="@+id/withdrawal_status_tv"
+            android:id="@+id/withdrawal_status_iv"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginRight="@dimen/dp15"
+            tools:text="提现成功"
+            android:id="@+id/withdrawal_status_tv"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:layout_alignParentBottom="true"
+            style="@style/line_divide"/>
+
+</RelativeLayout>

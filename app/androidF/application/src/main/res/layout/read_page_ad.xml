@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+        >
+
+    <RelativeLayout
+            android:id="@+id/ad_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/black_80"
+            android:gravity="center"
+            android:orientation="vertical"/>
+    <!--<com.qq.e.ads.nativ.widget.NativeAdContainer-->
+    <!--android:id="@+id/ad_content"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@color/white"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+    <LinearLayout
+            android:id="@+id/ad_skip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="点击跳过"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+        <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="30dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ad_skip"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ad_skip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="点击跳过"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+        <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="30dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ad_skip"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp54">
+
+    <TextView
+            android:paddingLeft="@dimen/dp15"
+            android:textColor="@color/selector_292929_no_selected_e5220e_select"
+            android:layout_centerVertical="true"
+            android:id="@+id/chapter_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:id="@+id/divide_line"
+            android:background="@color/color_e8e8e8"
+            style="@style/line_divide"/>
+</RelativeLayout>

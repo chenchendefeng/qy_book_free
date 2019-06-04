@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content">
+
+    <LinearLayout
+            android:background="@mipmap/image_qiandao_chenggong"
+            android:orientation="vertical"
+            android:layout_width="@dimen/dp375"
+            android:layout_height="@dimen/dp390">
+
+        <TextView
+                android:id="@+id/gold_get_tv"
+                android:textColor="@color/red_text_color"
+                android:layout_marginTop="@dimen/dp135"
+                android:text="签到成功，获20金豆"
+                android:textSize="@dimen/sp27"
+                android:lines="1"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageView
+                android:layout_marginTop="@dimen/dp30"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/center_iv"
+                tools:src="@mipmap/gif_sign_success_pop_center"
+                android:layout_width="@dimen/dp160"
+                android:layout_height="@dimen/dp80"/>
+
+        <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp30"
+                android:textColor="@color/color_ffed76"
+                android:textSize="@dimen/sp10"
+                android:text="@string/small_video_about_15_to_30_seconds_long_midway_exits_no_reward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/watch_video_btn"
+            tools:src="@mipmap/gif_sign_success_pop_btn"
+            android:layout_marginTop="@dimen/dp320"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/dp132"
+            android:layout_height="@dimen/dp137"/>
+</FrameLayout>

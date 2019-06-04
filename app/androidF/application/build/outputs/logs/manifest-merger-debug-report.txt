@@ -1,0 +1,824 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5.1.aar/e9d48fd918d55e7dc1cf83566a99a611/AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshHeader-1.0.5.1.aar/2705791a51d965d9ab63917bfdbf8270/AndroidManifest.xml:2:1-17:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:17:1-61:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/multidex-1.0.2.aar/0e432fdc820eed6c52e96a05dd4d255b/AndroidManifest.xml:17:1-22:12
+MERGED from [cn.smssdk:SMSSDK:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SMSSDK-3.3.2.aar/d7dc5dd58b35fba604763c090cdd99b2/AndroidManifest.xml:2:1-11:12
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ShortMessageSDKGUI-3.3.2.aar/9ae7db26422f1f1b1a978830e7dcbbd1/AndroidManifest.xml:2:1-16:12
+MERGED from [me.jessyan:arms:2.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/arms-2.5.0.aar/e4fb8de5ef0bb98fea65aa309014952a/AndroidManifest.xml:2:1-11:12
+MERGED from [:viewlib] /Users/leafye/work/qianyue/v1.0.0/viewlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [me.jessyan:arms-imageloader-glide:2.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/arms-imageloader-glide-2.5.0.aar/9f387cca3b69cbe927e31d525e6ad768/AndroidManifest.xml:2:1-11:12
+MERGED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:2:1-19:12
+MERGED from [org.simple:androideventbus:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/androideventbus-1.0.5.1.aar/20c7393b8bedef3e694b8a25cecae924/AndroidManifest.xml:2:1-11:12
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-76:12
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.5.1.aar/0a6e48a7f8817f9012e5c4e1f6d1b9ee/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.yalantis:ucrop:2.2.2-native] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ucrop-2.2.2-native.aar/99270938aae2f700448e0acb73326497/AndroidManifest.xml:2:1-11:12
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:17:1-33:12
+MERGED from [com.airbnb.android:lottie:2.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/lottie-2.5.4.aar/7fb8517d35339ca213cb582301632e98/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/8555b30b52df73d4d2e4280379b47ecc/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:27.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/design-27.1.0.aar/5855dd1e09434a97594791a841015a67/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ce47fd119b9817c189b4a568cc9b1fae/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/8ceef627a657eb408bbc49da39e8b7f4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.loopeer.lib:shadow:0.0.4-beta3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/shadow-0.0.4-beta3.aar/b0bcc16d2f67f8d06c45974e2a35582b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.GrenderG:Toasty:1.3.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/Toasty-1.3.0.aar/25724ecc42bf04e7a915bc7e6093c3ff/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BaseRecyclerViewAdapterHelper-2.9.30.aar/3da7d5c2b005f9d2795a61165a5ee315/AndroidManifest.xml:2:1-11:12
+MERGED from [jp.wasabeef:glide-transformations:4.0.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-transformations-4.0.1.aar/b888734e4680efa03cd4c62ddc2a8092/AndroidManifest.xml:2:1-9:12
+MERGED from [top.zibin:Luban:1.1.8] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/Luban-1.1.8.aar/fd627ad6fa44ab32ae1c07fb5143e124/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/51ba84998786707f8902bf914393f80c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.2.3.aar/8222b8e800e9fa46ece12a14a154fb44/AndroidManifest.xml:1:92-6:12
+MERGED from [com.tencent.bugly:crashreport:2.8.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/crashreport-2.8.6.aar/18414632b374818111bcd66b8fd0fb83/AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/nativecrashreport-3.6.0.1.aar/06b12b5e0361fad27581004c47f5bda0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.2.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.2.4.aar/ece6ea6f76da6e811faac17e820ed0ae/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/EasySwipeMenuLayout-1.1.2.aar/4172c308249a9e448e5ed47a14b61fe5/AndroidManifest.xml:2:1-17:12
+MERGED from [com.bigkoo:svprogresshud:1.0.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/svprogresshud-1.0.6.aar/b0cf39f0161deb1d42e7e60b69e5d8d2/AndroidManifest.xml:2:1-11:12
+MERGED from [me.imid.swipebacklayout.lib:library:1.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.1.0.aar/264901559b395a1aa2f56762298353b1/AndroidManifest.xml:2:1-15:12
+MERGED from [me.jessyan:retrofit-url-manager:1.4.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/retrofit-url-manager-1.4.0.aar/981c4988fc3826efb9168f312c85fa84/AndroidManifest.xml:2:1-11:12
+MERGED from [me.jessyan:progressmanager:1.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/progressmanager-1.5.0.aar/4d44a25b3671cfccab4d566cb93ad895/AndroidManifest.xml:2:1-11:12
+MERGED from [cn.bingoogolapple:bga-banner:2.2.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/bga-banner-2.2.6.aar/3b48fce769b2d26b64c1ac590a61e486/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/cf37e6868c51bb3aa25e4043f6d3d68c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fb364442826b03ecaceee0dd971c8f90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/77b8ee4239176ef5fe2fa39cbfd26323/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxpermissions-0.10.2.aar/df54b9907526dd970e9cfbc07adaa5c6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-4.8.0.aar/3a0637ee5105adde6ce621ed6fb10232/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/27c59954fe5d35d23bb7f949f3ed2bc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4bbc17a5ef580294e90f6c07fcf6add6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cfe72b29269d34f16d9e054a3d55d7f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/911dce96096d64b2c7daa3f7ff55d6a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6a2035b10ccf5e08f6e1070c3f28196d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/612d21ad594cccf015ce098be90416ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/loader-28.0.0.aar/b3b37b379ebc7d54e8a7ae9819318ebd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/transition-27.1.0.aar/f958ed65d1027e0280728f2993f810b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/aec5fac7c56c4a6d7d7e49dcfbece4f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/96aabf05c67d69e2b974b79f5116536e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/54cc2db0350b8d986f5987cf24919d8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ee86054c7a88db16f0dbca15cd5458c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/customview-28.0.0.aar/dc3a1693efa96d336db64baa656d94e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e0703a0fb9ca59d877fc7f0b220bb64e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0307500d39b779dc483cda8979232350/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/788f8672bf391c5c8864a77847a58c92/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a7fd80524f0a76816b4e746f607003fe/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/28bac37f8f1bb1beebc27bd50e6779f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/44c618b059948fb624ab0a90a49f8e48/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/runtime-1.1.1.aar/42bc540e04e9e474ebdf381046584d87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/744788fa41e3648de1fe3cb00397e89b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/15022407fcc9952a3f6f1149f6d95d42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/print-28.0.0.aar/638167d81636e8b7edfb1b34ec7bf0d5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ea7bcf202be4d060033dcdef6ebcbbcf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/64c7ab71cfcef46a2ded251a1f45acbe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4fe10afada80c65081fa9ab21821a288/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/74bbe233761a9f243cf8e38535fb391d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1bcf1593d8af7e64c39e116dfb8e678c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/0aa41640b120e8669fdd14b18ef2497e/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/4d4c333d5d0e91f58ad5baa28638648a/AndroidManifest.xml:15:1-20:12
+MERGED from [com.trello.rxlifecycle2:rxlifecycle-android:2.2.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxlifecycle-android-2.2.2.aar/a9b309f1b40b05e9bbf06990b9e2d624/AndroidManifest.xml:13:1-18:12
+MERGED from [me.jessyan:rxerrorhandler:2.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxerrorhandler-2.1.1.aar/71c7ce60ad0670227b85eb849f27f3c9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/timber-4.7.1.aar/529bea4009e84b21a0ecc10e75e094b4/AndroidManifest.xml:2:1-9:12
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.4.aar/80be2a1bbecf95a5f18a19228e9e6f6b/AndroidManifest.xml:1:106-7:12
+MERGED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:2:1-21:12
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:2:1-18:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/android-gif-drawable-1.2.16.aar/ee799d5f5ed43c7eedd61e89206fbd4d/AndroidManifest.xml:2:1-10:12
+MERGED from [com.youth.banner:banner:1.4.10] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/banner-1.4.10.aar/12034950b34c71b82ed00f657e0c4426/AndroidManifest.xml:2:1-11:12
+MERGED from [com.wang.avi:library:2.1.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-2.1.3.aar/ee984c0c8a6a761ffea455c0c06003a2/AndroidManifest.xml:2:1-11:12
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.2.aar/2900089c8be0f0df4879feafe0fe40d3/AndroidManifest.xml:1:116-8:12
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:2:1-38:12
+MERGED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+	package
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:4:11-47
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:1-171:12
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:6:5-66
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-67
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-67
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:5-67
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:5-67
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:12:5-67
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:7:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:24:5-81
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-81
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-81
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:5-81
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:5-81
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:24:5-81
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:24:5-81
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:12:5-81
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:12:5-81
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:16:5-81
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:23:5-80
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:25:5-80
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:25:5-80
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:11:5-80
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:9:5-78
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-79
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-79
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-79
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-79
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:13:5-79
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:10:5-75
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-76
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-76
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:14:5-76
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:11:5-75
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-76
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:12:5-74
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-75
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-75
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-75
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-75
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:15:5-75
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:12:22-72
+application
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:14:5-170:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5.1.aar/e9d48fd918d55e7dc1cf83566a99a611/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5.1.aar/e9d48fd918d55e7dc1cf83566a99a611/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshHeader-1.0.5.1.aar/2705791a51d965d9ab63917bfdbf8270/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshHeader-1.0.5.1.aar/2705791a51d965d9ab63917bfdbf8270/AndroidManifest.xml:11:5-15:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:26:5-59:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:26:5-59:19
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ShortMessageSDKGUI-3.3.2.aar/9ae7db26422f1f1b1a978830e7dcbbd1/AndroidManifest.xml:13:5-14:19
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ShortMessageSDKGUI-3.3.2.aar/9ae7db26422f1f1b1a978830e7dcbbd1/AndroidManifest.xml:13:5-14:19
+MERGED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:11:5-17:19
+MERGED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:11:5-17:19
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:5-74:19
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:5-74:19
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.5.1.aar/0a6e48a7f8817f9012e5c4e1f6d1b9ee/AndroidManifest.xml:11:5-20
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.5.1.aar/0a6e48a7f8817f9012e5c4e1f6d1b9ee/AndroidManifest.xml:11:5-20
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:27:5-31:19
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:27:5-31:19
+MERGED from [com.airbnb.android:lottie:2.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/lottie-2.5.4.aar/7fb8517d35339ca213cb582301632e98/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/lottie-2.5.4.aar/7fb8517d35339ca213cb582301632e98/AndroidManifest.xml:11:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/8ceef627a657eb408bbc49da39e8b7f4/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/8ceef627a657eb408bbc49da39e8b7f4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.2.3.aar/8222b8e800e9fa46ece12a14a154fb44/AndroidManifest.xml:4:5-81
+MERGED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.2.3.aar/8222b8e800e9fa46ece12a14a154fb44/AndroidManifest.xml:4:5-81
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.2.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.2.4.aar/ece6ea6f76da6e811faac17e820ed0ae/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.2.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.2.4.aar/ece6ea6f76da6e811faac17e820ed0ae/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/EasySwipeMenuLayout-1.1.2.aar/4172c308249a9e448e5ed47a14b61fe5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/EasySwipeMenuLayout-1.1.2.aar/4172c308249a9e448e5ed47a14b61fe5/AndroidManifest.xml:11:5-15:19
+MERGED from [me.imid.swipebacklayout.lib:library:1.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.1.0.aar/264901559b395a1aa2f56762298353b1/AndroidManifest.xml:13:5-20
+MERGED from [me.imid.swipebacklayout.lib:library:1.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.1.0.aar/264901559b395a1aa2f56762298353b1/AndroidManifest.xml:13:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/cf37e6868c51bb3aa25e4043f6d3d68c/AndroidManifest.xml:23:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/cf37e6868c51bb3aa25e4043f6d3d68c/AndroidManifest.xml:23:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxpermissions-0.10.2.aar/df54b9907526dd970e9cfbc07adaa5c6/AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxpermissions-0.10.2.aar/df54b9907526dd970e9cfbc07adaa5c6/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-4.8.0.aar/3a0637ee5105adde6ce621ed6fb10232/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-4.8.0.aar/3a0637ee5105adde6ce621ed6fb10232/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/788f8672bf391c5c8864a77847a58c92/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/788f8672bf391c5c8864a77847a58c92/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a7fd80524f0a76816b4e746f607003fe/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a7fd80524f0a76816b4e746f607003fe/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/44c618b059948fb624ab0a90a49f8e48/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/44c618b059948fb624ab0a90a49f8e48/AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/timber-4.7.1.aar/529bea4009e84b21a0ecc10e75e094b4/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/timber-4.7.1.aar/529bea4009e84b21a0ecc10e75e094b4/AndroidManifest.xml:7:5-20
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.4.aar/80be2a1bbecf95a5f18a19228e9e6f6b/AndroidManifest.xml:5:5-19
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.4.aar/80be2a1bbecf95a5f18a19228e9e6f6b/AndroidManifest.xml:5:5-19
+MERGED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:12:5-19:19
+MERGED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:12:5-19:19
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:14:5-16:19
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:14:5-16:19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.2.aar/2900089c8be0f0df4879feafe0fe40d3/AndroidManifest.xml:5:5-6:19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.2.aar/2900089c8be0f0df4879feafe0fe40d3/AndroidManifest.xml:5:5-6:19
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:23:5-36:19
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:23:5-36:19
+MERGED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:11:5-17:19
+MERGED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:11:5-17:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/788f8672bf391c5c8864a77847a58c92/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:19:13-39
+	android:label
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:18:13-45
+	android:hardwareAccelerated
+		ADDED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.2.3.aar/8222b8e800e9fa46ece12a14a154fb44/AndroidManifest.xml:4:45-79
+	tools:ignore
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:22:13-52
+	android:icon
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:17:13-47
+	android:allowBackup
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:16:13-39
+	android:theme
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:20:13-44
+	android:usesCleartextTraffic
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:21:13-48
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:15:13-59
+uses-library#org.apache.http.legacy
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:24:9-26:43
+	android:required
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:25:17-54
+activity#com.wy.adbook.mvp.view.activity.WelcomeActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:28:9-36:20
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:30:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:29:17-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:34:27-74
+activity#com.wy.adbook.mvp.view.activity.GenderSelectActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:38:9-40:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:40:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:39:17-84
+activity#com.wy.adbook.mvp.view.activity.MainActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:42:9-45:50
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:44:17-53
+	android:launchMode
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:45:17-48
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:43:17-76
+activity#com.wy.adbook.mvp.view.activity.SearchActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:47:9-50:50
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:49:17-53
+	android:launchMode
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:50:17-48
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:48:17-78
+activity#com.wy.adbook.mvp.view.activity.ClassificationActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:52:9-54:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:54:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:53:17-86
+activity#com.wy.adbook.mvp.view.activity.ClassificationDetailActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:56:9-58:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:58:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:57:17-92
+activity#com.wy.adbook.mvp.view.activity.MyWalletActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:60:9-62:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:62:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:61:17-80
+activity#com.wy.adbook.mvp.view.activity.BookDetailActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:64:9-67:19
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:66:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:65:17-82
+activity#com.wy.adbook.mvp.view.activity.ReadActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:69:9-73:19
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:71:17-53
+	android:configChanges
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:72:17-67
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:70:17-76
+activity#com.wy.adbook.mvp.view.activity.LoginActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:75:9-78:19
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:77:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:76:17-77
+activity#com.wy.adbook.mvp.view.activity.SignCalenderActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:80:9-82:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:82:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:81:17-84
+activity#com.wy.adbook.wxapi.WXEntryActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:84:9-89:80
+	android:launchMode
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:87:17-47
+	android:exported
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:86:17-40
+	android:configChanges
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:89:17-78
+	android:theme
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:88:17-76
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:85:17-67
+activity#com.wy.adbook.mvp.view.activity.AdActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:91:9-92:19
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:91:19-76
+service#com.wy.adbook.service.DownloadService
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:94:9-96:19
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:94:18-70
+activity#com.wy.adbook.mvp.view.activity.WithdrawalActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:98:9-100:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:100:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:99:17-82
+activity#com.wy.adbook.mvp.view.activity.WithdrawalRecordActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:102:9-104:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:104:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:103:17-88
+activity#com.wy.adbook.mvp.view.activity.RemoveAdSuccessActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:106:9-108:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:108:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:107:17-87
+activity#com.wy.adbook.mvp.view.activity.RedEnvelopesForCodeActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:110:9-112:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:112:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:111:17-91
+activity#com.wy.adbook.mvp.view.web.act.WebActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:114:9-116:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:116:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:115:17-74
+activity#com.wy.adbook.mvp.view.activity.VipActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:118:9-120:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:120:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:119:17-75
+activity#com.wy.adbook.mvp.view.activity.ReadFooterActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:122:9-125:19
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:124:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:123:17-82
+activity#com.wy.adbook.mvp.view.activity.HelpCenterActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:127:9-131:19
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:129:17-53
+	android:windowSoftInputMode
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:130:17-59
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:128:17-82
+activity#com.wy.adbook.mvp.view.activity.AboutUsActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:133:9-135:81
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:134:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:135:17-79
+activity#com.wy.adbook.mvp.view.activity.SettingActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:137:9-140:19
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:139:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:138:17-79
+activity#com.wy.adbook.mvp.view.activity.MyFriendActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:142:9-144:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:144:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:143:17-80
+activity#com.wy.adbook.mvp.view.activity.FaceToFaceActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:146:9-148:55
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:148:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:147:17-82
+activity#com.wy.adbook.mvp.view.activity.BasicInfoActivity
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:150:9-153:19
+	android:screenOrientation
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:152:17-53
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:151:17-81
+meta-data#design_width_in_dp
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:159:9-161:38
+	android:value
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:161:17-36
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:160:17-50
+meta-data#design_height_in_dp
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:162:9-164:38
+	android:value
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:164:17-36
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:163:17-51
+meta-data#com.wy.adbook.app.manager.GlobalConfiguration
+ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:167:9-169:47
+	android:value
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:169:17-45
+	android:name
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml:168:17-77
+uses-sdk
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5.1.aar/e9d48fd918d55e7dc1cf83566a99a611/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5.1.aar/e9d48fd918d55e7dc1cf83566a99a611/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshHeader-1.0.5.1.aar/2705791a51d965d9ab63917bfdbf8270/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SmartRefreshHeader-1.0.5.1.aar/2705791a51d965d9ab63917bfdbf8270/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/multidex-1.0.2.aar/0e432fdc820eed6c52e96a05dd4d255b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/multidex-1.0.2.aar/0e432fdc820eed6c52e96a05dd4d255b/AndroidManifest.xml:20:5-43
+MERGED from [cn.smssdk:SMSSDK:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SMSSDK-3.3.2.aar/d7dc5dd58b35fba604763c090cdd99b2/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.smssdk:SMSSDK:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/SMSSDK-3.3.2.aar/d7dc5dd58b35fba604763c090cdd99b2/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ShortMessageSDKGUI-3.3.2.aar/9ae7db26422f1f1b1a978830e7dcbbd1/AndroidManifest.xml:8:5-11:45
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ShortMessageSDKGUI-3.3.2.aar/9ae7db26422f1f1b1a978830e7dcbbd1/AndroidManifest.xml:8:5-11:45
+MERGED from [me.jessyan:arms:2.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/arms-2.5.0.aar/e4fb8de5ef0bb98fea65aa309014952a/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:arms:2.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/arms-2.5.0.aar/e4fb8de5ef0bb98fea65aa309014952a/AndroidManifest.xml:7:5-9:41
+MERGED from [:viewlib] /Users/leafye/work/qianyue/v1.0.0/viewlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:viewlib] /Users/leafye/work/qianyue/v1.0.0/viewlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:arms-imageloader-glide:2.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/arms-imageloader-glide-2.5.0.aar/9f387cca3b69cbe927e31d525e6ad768/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:arms-imageloader-glide:2.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/arms-imageloader-glide-2.5.0.aar/9f387cca3b69cbe927e31d525e6ad768/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:7:5-9:41
+MERGED from [org.simple:androideventbus:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/androideventbus-1.0.5.1.aar/20c7393b8bedef3e694b8a25cecae924/AndroidManifest.xml:7:5-9:40
+MERGED from [org.simple:androideventbus:1.0.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/androideventbus-1.0.5.1.aar/20c7393b8bedef3e694b8a25cecae924/AndroidManifest.xml:7:5-9:40
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.5.1.aar/0a6e48a7f8817f9012e5c4e1f6d1b9ee/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.5.1.aar/0a6e48a7f8817f9012e5c4e1f6d1b9ee/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2-native] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ucrop-2.2.2-native.aar/99270938aae2f700448e0acb73326497/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2-native] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ucrop-2.2.2-native.aar/99270938aae2f700448e0acb73326497/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:20:5-22:41
+MERGED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:20:5-22:41
+MERGED from [com.airbnb.android:lottie:2.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/lottie-2.5.4.aar/7fb8517d35339ca213cb582301632e98/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/lottie-2.5.4.aar/7fb8517d35339ca213cb582301632e98/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/8555b30b52df73d4d2e4280379b47ecc/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/8555b30b52df73d4d2e4280379b47ecc/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/design-27.1.0.aar/5855dd1e09434a97594791a841015a67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/design-27.1.0.aar/5855dd1e09434a97594791a841015a67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ce47fd119b9817c189b4a568cc9b1fae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ce47fd119b9817c189b4a568cc9b1fae/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/8ceef627a657eb408bbc49da39e8b7f4/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/8ceef627a657eb408bbc49da39e8b7f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.loopeer.lib:shadow:0.0.4-beta3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/shadow-0.0.4-beta3.aar/b0bcc16d2f67f8d06c45974e2a35582b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.loopeer.lib:shadow:0.0.4-beta3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/shadow-0.0.4-beta3.aar/b0bcc16d2f67f8d06c45974e2a35582b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.3.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/Toasty-1.3.0.aar/25724ecc42bf04e7a915bc7e6093c3ff/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.3.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/Toasty-1.3.0.aar/25724ecc42bf04e7a915bc7e6093c3ff/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BaseRecyclerViewAdapterHelper-2.9.30.aar/3da7d5c2b005f9d2795a61165a5ee315/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BaseRecyclerViewAdapterHelper-2.9.30.aar/3da7d5c2b005f9d2795a61165a5ee315/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:4.0.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-transformations-4.0.1.aar/b888734e4680efa03cd4c62ddc2a8092/AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:4.0.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-transformations-4.0.1.aar/b888734e4680efa03cd4c62ddc2a8092/AndroidManifest.xml:5:5-7:41
+MERGED from [top.zibin:Luban:1.1.8] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/Luban-1.1.8.aar/fd627ad6fa44ab32ae1c07fb5143e124/AndroidManifest.xml:7:5-9:41
+MERGED from [top.zibin:Luban:1.1.8] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/Luban-1.1.8.aar/fd627ad6fa44ab32ae1c07fb5143e124/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/51ba84998786707f8902bf914393f80c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/51ba84998786707f8902bf914393f80c/AndroidManifest.xml:20:5-44
+MERGED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.2.3.aar/8222b8e800e9fa46ece12a14a154fb44/AndroidManifest.xml:2:5-72
+MERGED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.2.3.aar/8222b8e800e9fa46ece12a14a154fb44/AndroidManifest.xml:2:5-72
+MERGED from [com.tencent.bugly:crashreport:2.8.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/crashreport-2.8.6.aar/18414632b374818111bcd66b8fd0fb83/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.8.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/crashreport-2.8.6.aar/18414632b374818111bcd66b8fd0fb83/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/nativecrashreport-3.6.0.1.aar/06b12b5e0361fad27581004c47f5bda0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/nativecrashreport-3.6.0.1.aar/06b12b5e0361fad27581004c47f5bda0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.2.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.2.4.aar/ece6ea6f76da6e811faac17e820ed0ae/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.2.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.2.4.aar/ece6ea6f76da6e811faac17e820ed0ae/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/EasySwipeMenuLayout-1.1.2.aar/4172c308249a9e448e5ed47a14b61fe5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/EasySwipeMenuLayout-1.1.2.aar/4172c308249a9e448e5ed47a14b61fe5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bigkoo:svprogresshud:1.0.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/svprogresshud-1.0.6.aar/b0cf39f0161deb1d42e7e60b69e5d8d2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bigkoo:svprogresshud:1.0.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/svprogresshud-1.0.6.aar/b0cf39f0161deb1d42e7e60b69e5d8d2/AndroidManifest.xml:7:5-9:41
+MERGED from [me.imid.swipebacklayout.lib:library:1.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.1.0.aar/264901559b395a1aa2f56762298353b1/AndroidManifest.xml:9:5-11:41
+MERGED from [me.imid.swipebacklayout.lib:library:1.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.1.0.aar/264901559b395a1aa2f56762298353b1/AndroidManifest.xml:9:5-11:41
+MERGED from [me.jessyan:retrofit-url-manager:1.4.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/retrofit-url-manager-1.4.0.aar/981c4988fc3826efb9168f312c85fa84/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:retrofit-url-manager:1.4.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/retrofit-url-manager-1.4.0.aar/981c4988fc3826efb9168f312c85fa84/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:progressmanager:1.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/progressmanager-1.5.0.aar/4d44a25b3671cfccab4d566cb93ad895/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:progressmanager:1.5.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/progressmanager-1.5.0.aar/4d44a25b3671cfccab4d566cb93ad895/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.bingoogolapple:bga-banner:2.2.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/bga-banner-2.2.6.aar/3b48fce769b2d26b64c1ac590a61e486/AndroidManifest.xml:5:5-7:41
+MERGED from [cn.bingoogolapple:bga-banner:2.2.6] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/bga-banner-2.2.6.aar/3b48fce769b2d26b64c1ac590a61e486/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/cf37e6868c51bb3aa25e4043f6d3d68c/AndroidManifest.xml:21:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/cf37e6868c51bb3aa25e4043f6d3d68c/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fb364442826b03ecaceee0dd971c8f90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fb364442826b03ecaceee0dd971c8f90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/77b8ee4239176ef5fe2fa39cbfd26323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/77b8ee4239176ef5fe2fa39cbfd26323/AndroidManifest.xml:20:5-44
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxpermissions-0.10.2.aar/df54b9907526dd970e9cfbc07adaa5c6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxpermissions-0.10.2.aar/df54b9907526dd970e9cfbc07adaa5c6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-4.8.0.aar/3a0637ee5105adde6ce621ed6fb10232/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/glide-4.8.0.aar/3a0637ee5105adde6ce621ed6fb10232/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/27c59954fe5d35d23bb7f949f3ed2bc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/27c59954fe5d35d23bb7f949f3ed2bc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4bbc17a5ef580294e90f6c07fcf6add6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4bbc17a5ef580294e90f6c07fcf6add6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cfe72b29269d34f16d9e054a3d55d7f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cfe72b29269d34f16d9e054a3d55d7f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/911dce96096d64b2c7daa3f7ff55d6a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/911dce96096d64b2c7daa3f7ff55d6a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6a2035b10ccf5e08f6e1070c3f28196d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6a2035b10ccf5e08f6e1070c3f28196d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/612d21ad594cccf015ce098be90416ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/612d21ad594cccf015ce098be90416ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/loader-28.0.0.aar/b3b37b379ebc7d54e8a7ae9819318ebd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/loader-28.0.0.aar/b3b37b379ebc7d54e8a7ae9819318ebd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/transition-27.1.0.aar/f958ed65d1027e0280728f2993f810b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/transition-27.1.0.aar/f958ed65d1027e0280728f2993f810b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/aec5fac7c56c4a6d7d7e49dcfbece4f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/aec5fac7c56c4a6d7d7e49dcfbece4f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/96aabf05c67d69e2b974b79f5116536e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/96aabf05c67d69e2b974b79f5116536e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/54cc2db0350b8d986f5987cf24919d8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/54cc2db0350b8d986f5987cf24919d8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ee86054c7a88db16f0dbca15cd5458c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ee86054c7a88db16f0dbca15cd5458c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/customview-28.0.0.aar/dc3a1693efa96d336db64baa656d94e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/customview-28.0.0.aar/dc3a1693efa96d336db64baa656d94e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e0703a0fb9ca59d877fc7f0b220bb64e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e0703a0fb9ca59d877fc7f0b220bb64e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0307500d39b779dc483cda8979232350/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0307500d39b779dc483cda8979232350/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/788f8672bf391c5c8864a77847a58c92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/788f8672bf391c5c8864a77847a58c92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a7fd80524f0a76816b4e746f607003fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a7fd80524f0a76816b4e746f607003fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/28bac37f8f1bb1beebc27bd50e6779f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/28bac37f8f1bb1beebc27bd50e6779f5/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/44c618b059948fb624ab0a90a49f8e48/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/44c618b059948fb624ab0a90a49f8e48/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/runtime-1.1.1.aar/42bc540e04e9e474ebdf381046584d87/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/runtime-1.1.1.aar/42bc540e04e9e474ebdf381046584d87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/744788fa41e3648de1fe3cb00397e89b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/744788fa41e3648de1fe3cb00397e89b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/15022407fcc9952a3f6f1149f6d95d42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/15022407fcc9952a3f6f1149f6d95d42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/print-28.0.0.aar/638167d81636e8b7edfb1b34ec7bf0d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/print-28.0.0.aar/638167d81636e8b7edfb1b34ec7bf0d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ea7bcf202be4d060033dcdef6ebcbbcf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ea7bcf202be4d060033dcdef6ebcbbcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/64c7ab71cfcef46a2ded251a1f45acbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/64c7ab71cfcef46a2ded251a1f45acbe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4fe10afada80c65081fa9ab21821a288/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4fe10afada80c65081fa9ab21821a288/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/74bbe233761a9f243cf8e38535fb391d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/74bbe233761a9f243cf8e38535fb391d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1bcf1593d8af7e64c39e116dfb8e678c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1bcf1593d8af7e64c39e116dfb8e678c/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/0aa41640b120e8669fdd14b18ef2497e/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/0aa41640b120e8669fdd14b18ef2497e/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/4d4c333d5d0e91f58ad5baa28638648a/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/4d4c333d5d0e91f58ad5baa28638648a/AndroidManifest.xml:18:5-43
+MERGED from [com.trello.rxlifecycle2:rxlifecycle-android:2.2.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxlifecycle-android-2.2.2.aar/a9b309f1b40b05e9bbf06990b9e2d624/AndroidManifest.xml:16:5-44
+MERGED from [com.trello.rxlifecycle2:rxlifecycle-android:2.2.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxlifecycle-android-2.2.2.aar/a9b309f1b40b05e9bbf06990b9e2d624/AndroidManifest.xml:16:5-44
+MERGED from [me.jessyan:rxerrorhandler:2.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxerrorhandler-2.1.1.aar/71c7ce60ad0670227b85eb849f27f3c9/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:rxerrorhandler:2.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/rxerrorhandler-2.1.1.aar/71c7ce60ad0670227b85eb849f27f3c9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/timber-4.7.1.aar/529bea4009e84b21a0ecc10e75e094b4/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/timber-4.7.1.aar/529bea4009e84b21a0ecc10e75e094b4/AndroidManifest.xml:5:5-43
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.4.aar/80be2a1bbecf95a5f18a19228e9e6f6b/AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.4.aar/80be2a1bbecf95a5f18a19228e9e6f6b/AndroidManifest.xml:3:5-72
+MERGED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:8:5-10:41
+MERGED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:8:5-10:41
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/android-gif-drawable-1.2.16.aar/ee799d5f5ed43c7eedd61e89206fbd4d/AndroidManifest.xml:6:5-8:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/android-gif-drawable-1.2.16.aar/ee799d5f5ed43c7eedd61e89206fbd4d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.youth.banner:banner:1.4.10] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/banner-1.4.10.aar/12034950b34c71b82ed00f657e0c4426/AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/banner-1.4.10.aar/12034950b34c71b82ed00f657e0c4426/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-2.1.3.aar/ee984c0c8a6a761ffea455c0c06003a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-2.1.3.aar/ee984c0c8a6a761ffea455c0c06003a2/AndroidManifest.xml:7:5-9:41
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.2.aar/2900089c8be0f0df4879feafe0fe40d3/AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/library-1.0.2.aar/2900089c8be0f0df4879feafe0fe40d3/AndroidManifest.xml:3:5-72
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [cn.smssdk:ShortMessageSDKGUI:3.3.2] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/ShortMessageSDKGUI-3.3.2.aar/9ae7db26422f1f1b1a978830e7dcbbd1/AndroidManifest.xml:11:9-42
+	android:targetSdkVersion
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+		ADDED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+		INJECTED from /Users/leafye/work/qianyue/v1.0.0/application/src/main/AndroidManifest.xml
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:36:9-49:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:41:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:38:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:40:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:39:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:42:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:37:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:50:9-58:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:56:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:55:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:53:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:54:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:58:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:57:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/5409bc92463d4b12de831a95f959ac53/AndroidManifest.xml:51:13-93
+provider#me.jessyan.autosize.InitProvider
+ADDED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:12:9-16:43
+	android:authorities
+		ADDED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:14:13-74
+	android:multiprocess
+		ADDED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:16:13-40
+	android:exported
+		ADDED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [me.jessyan:autosize:1.1.1] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/autosize-1.1.1.aar/da72fa9195a03f69c6dc1b405c36ad35/AndroidManifest.xml:13:13-60
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:19:5-81
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:20:5-79
+MERGED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:22-80
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:9-43:64
+	android:value
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-61
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-52
+provider#android.support.v4.content.FileProvider
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:9-57:20
+	android:grantUriPermissions
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-47
+	android:authorities
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-64
+	android:exported
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-56:57
+	android:resource
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:17-54
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:17-67
+service#com.qq.e.comm.DownloadService
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:9-65:86
+	android:configChanges
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-83
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-51
+activity#com.qq.e.ads.PortraitADActivity
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:9-69:52
+	android:screenOrientation
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-49
+	android:configChanges
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-83
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-59
+activity#com.qq.e.ads.LandscapeADActivity
+ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:9-73:53
+	android:screenOrientation
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-50
+	android:configChanges
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:13-83
+	android:name
+		ADDED from [:utilslib] /Users/leafye/work/qianyue/v1.0.0/utilslib/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-60
+activity#com.zhihu.matisse.ui.MatisseActivity
+ADDED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:28:9-73
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:28:19-70
+activity#com.zhihu.matisse.internal.ui.AlbumPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:29:9-87
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:29:19-84
+activity#com.zhihu.matisse.internal.ui.SelectedPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:30:9-90
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.4.3] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/matisse-0.4.3.aar/604add9c10cd0fb7b7db886b2761f2b9/AndroidManifest.xml:30:19-87
+meta-data#TA_APPKEY
+ADDED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:13:9-15:35
+REJECTED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:24:9-26:45
+	tools:node
+		ADDED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:15:13-32
+	android:name
+		ADDED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:14:13-37
+meta-data#InstallChannel
+ADDED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:16:9-18:35
+REJECTED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:28:9-30:46
+	tools:node
+		ADDED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:18:13-32
+	android:name
+		ADDED from [com.tencent.qcloud:mtaUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mtaUtils-5.4.16.aar/d305391d961d3df26afce20d2a8a0c10/AndroidManifest.xml:17:13-42
+activity#com.tencent.qcloud.logutils.LogActivity
+ADDED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:15:9-76
+	android:name
+		ADDED from [com.tencent.qcloud:logUtils:5.4.16] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/logUtils-5.4.16.aar/86c28dc0d43b2573fd485b7e0c4bec5f/AndroidManifest.xml:15:19-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:17:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:21:22-63
+provider#com.tencent.stat.SmartProvider
+ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:32:9-35:40
+	android:authorities
+		ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:34:13-69
+	android:exported
+		ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.qq.mta:mta:3.4.7-release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mta-3.4.7-release.aar/11c56d992647ea289881146b9f15b8bb/AndroidManifest.xml:33:13-58
+provider#com.tencent.mid.api.MidProvider
+ADDED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:12:9-16:20
+	android:authorities
+		ADDED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:14:13-66
+	android:exported
+		ADDED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [com.tencent.mid:mid:4.06-Release] /Users/leafye/work/pandavisa_adr/gradle/wrapper/caches/transforms-1/files-1.1/mid-4.06-Release.aar/8a45f694eb38542caf7d0f4b44365f3b/AndroidManifest.xml:13:13-59

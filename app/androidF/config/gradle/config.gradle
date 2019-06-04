@@ -1,0 +1,195 @@
+//导出公共方法
+ext {
+    createListValueForBuildConfig = this.&createListValueForBuildConfig
+    createClassNameForBuildConfig = this.&createClassNameForBuildConfig
+    createClassValueForBuildConfig = this.&createClassValueForBuildConfig
+    createClassValueWithInnerClassForBuildConfig = this.&createClassValueWithInnerClassForBuildConfig
+    createInnerClassString = this.&createInnerClassString
+    getFileFromAssets = this.&getFileFromAssets
+    readPropertiesFile = this.&readPropertiesFile
+    generateActivityPath = this.&generateActivityPath
+    createActivityPathInnerClassString = this.&createActivityPathInnerClassString
+    getRSAPublicKey = this.&getRSAPublicKey
+    getActivityProtocoles = this.&getActivityProtocoles
+    log = this.&log
+
+}
+
+
+android {
+    compileSdkVersion COMPILE_SDK_VERSION as int
+    buildToolsVersion BUILD_TOOLS_VERSION as String
+
+    defaultConfig {
+        minSdkVersion MIN_SDK_VERSION as int
+        targetSdkVersion TARGET_SDK_VERSION as int
+        versionCode VERSION_CODE as int
+        versionName VERSION_NAME as String
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64','armeabi-v7a', 'armeabi-v8a'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+/**
+ * 在BuildConfig文件中生成集合并初始化
+ * @param initValue 需要初始化的值
+ * @return
+ */
+static String createListValueForBuildConfig(List<String> initValue) {
+    def listValue = StringBuilder.newInstance().with {
+        append("new java.util.ArrayList<String>() {\n")
+        append("\t{\n")
+    }
+    initValue.each { publicKey ->
+        listValue.append("\t\tadd(\"${publicKey}\");\n")
+    }
+    return listValue.append("\t}").append("\r  }").toString()
+}
+
+
+/**
+ * 在BuildConfig文件中生成类名，由于BuildConfig中只能生成常量，如果需要生成一个类，需要做一些特殊拼接处理
+ * @param className 类名
+ * @param comments 注释
+ * @return
+ */
+static String createClassNameForBuildConfig(String className, String comments) {
+    //将BuildConfig生成的常量后面的等号回车到下一行并添加‘//’注释
+    return "${className}{\n\t  //${comments}"
+}
+
+/**
+ * 在BuildConfig文件中生成类中的字段常量
+ * @param fieldsMap
+ * @return
+ */
+static String createClassValueForBuildConfig(Map fieldsMap) {
+    def classValue = StringBuilder.newInstance().with {
+        //在生成的等号后面换行
+        append("\n")
+    }
+    fieldsMap.each { key, value ->
+        classValue.append("public static final String ${key} = \"${value}\";\n")
+    }
+    //在拼接完字段的最后添加‘}’
+    return classValue.append("\r  }").toString()
+}
+
+/**
+ * 在BuildConfig文件中生成类中的字段常量和一个内部类
+ * @param fieldsMap 类常的量字段
+ * @param innerClassString 生成的内部类String
+ * @return
+ */
+static String createClassValueWithInnerClassForBuildConfig(Map fieldsMap, String innerClassString) {
+    def classValue = StringBuilder.newInstance().with {
+        //在生成的等号后面换行
+        append("\n")
+    }
+    //生成类的常量字段
+    fieldsMap.each { key, value ->
+        classValue.append("public static final String ${key} = \"${value}\";\n")
+    }
+    //添加内部类
+    classValue.append(innerClassString)
+    //在拼接完字段的最后添加‘}’
+    return classValue.append("\n}").append("\r  }").toString()
+}
+
+/**
+ * 生成内部类的string
+ * @param innerClassName 内部类名
+ * @param innerClassComments 内部类注释
+ * @param innerClassFieldsMap 内部类的常量字段
+ * @return
+ */
+static String createInnerClassString(String innerClassName, String innerClassComments,
+                                     Map innerClassFieldsMap) {
+    def innerclassStr = new StringBuilder()
+    //生成内部类名
+    innerclassStr
+            .append("public static class ")
+            .append(createClassNameForBuildConfig(innerClassName, innerClassComments))
+            .append("\n\t")
+    //生成内部类的常量字段
+    innerClassFieldsMap.each { key, value ->
+        innerclassStr.append("public static final String ${key} = \"${value}\";\n")
+    }
+    return innerclassStr
+}
+
+/**
+ * 从assets目录获取文件
+ * @param fileName 文件名
+ * @return
+ */
+File getFileFromAssets(String fileName) {
+    return android.sourceSets.getByName("main").assets.sourceFiles.find { file -> (fileName == file.name) }
+}
+
+/**
+ * 读取配置文件(xxx.properties文件)
+ * @param path
+ * @return
+ */
+Hashtable<String, String> readPropertiesFile(String path) {
+    def propertiesFile = new File(project.rootDir, path)
+    log("读取配置文件：" + propertiesFile.absolutePath)
+    def pathProperties = Properties.newInstance()
+    pathProperties.load(new InputStreamReader(new FileInputStream(propertiesFile), "utf-8"))
+    println "内容："
+    println pathProperties.toString()
+    println()
+    return pathProperties
+}
+
+
+/**
+ * 获取RSA的公钥
+ * @param path RSA公钥文件目录
+ * @return RSA公钥
+ */
+String getRSAPublicKey(String path) {
+    println "------获取RSA公钥 start------"
+    println "RSA_PUBLIC_KEYS_PATH: ${path.toString()}"
+    def file = new File(project.rootDir, path)
+    def publicKey = StringBuffer.newInstance()
+    file.withReader { reader ->
+        def line = ''
+        while ((line = reader.readLine()) != null) {
+            println line
+            if (line.length() > 0 && line.charAt(0) == '-') {
+                continue
+            } else {
+                publicKey.append(line)
+                publicKey.append("\\r")
+            }
+        }
+    }
+    log("RSA公钥：\n${publicKey.toString()}")
+    println "------获取RAS公钥 end------"
+    return publicKey.toString()
+}
+
+
+
+
+/**
+ * 在Gradle Console控制台输出日志
+ * @param msg
+ * @return
+ */
+def log(String msg) {
+    logger.log(LogLevel.DEBUG, msg)
+}

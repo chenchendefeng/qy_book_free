@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+        <android.support.v7.widget.RecyclerView
+                android:background="@color/color_f9f9f9"
+                android:id="@+id/feedback_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50">
+
+        <ImageView
+                android:id="@+id/photo_btn"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/icon_feedback_photo"
+                android:layout_width="@dimen/dp26"
+                android:layout_height="@dimen/dp24"/>
+
+        <EditText
+                android:id="@+id/input_et"
+                android:paddingLeft="@dimen/dp5"
+                android:textSize="@dimen/sp16"
+                android:hint="@string/please_enter_your_consult_content"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+        <TextView
+                android:id="@+id/send_btn"
+                android:paddingRight="@dimen/dp20"
+                android:text="发送"
+                android:paddingLeft="@dimen/dp10"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

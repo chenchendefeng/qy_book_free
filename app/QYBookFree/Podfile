@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'QYBookFree' do
+    pod 'Masonry'
+    pod 'AFNetworking'
+    pod 'YYKit'
+    pod 'BlocksKit'
+    pod 'MBProgressHUD'
+    pod 'MJRefresh'   
+    pod 'IQKeyboardManager'   
+    pod 'SDWebImage', '~>4.0.0'
+    pod 'MJExtension' 
+    pod 'YZTagList'
+    pod 'TZImagePickerController' 
+    pod 'libPhoneNumber-iOS', '~> 0.8'
+    pod 'STPopup'
+    pod 'SDCycleScrollView'  
+    pod 'FMDB'
+    pod 'ReactiveCocoa', '~> 2.5'
+end

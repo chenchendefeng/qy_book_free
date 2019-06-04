@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="horizontal"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/head_container"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                tools:visibility="visible"
+                android:id="@+id/cash_check_container"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/dp15"
+                    android:id="@+id/cash_check_tv"
+                    android:drawableTop="@mipmap/icon_xianjin"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    style="@style/head_bookcase_tv"
+                    android:text="@string/cash_check"
+                    />
+
+            <ImageView
+                    android:layout_marginTop="@dimen/dp25"
+                    android:layout_marginRight="-5dp"
+                    android:id="@+id/cash_check_tip_iv"
+                    android:layout_alignRight="@+id/cash_check_tv"
+                    android:src="@mipmap/gif_sign_right_top"
+                    android:layout_width="@dimen/dp17"
+                    android:layout_height="@dimen/dp18"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+                android:id="@+id/get_cash_every_day_tv"
+                android:paddingTop="30dp"
+                style="@style/head_bookcase_tv"
+                android:drawableTop="@mipmap/icon_get_cash_every_day"
+                android:text="@string/get_cash_every_day"/>
+
+        <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_marginRight="@dimen/dp15"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/golden_pig_make_lot_money_tv"
+                    android:paddingTop="30dp"
+                    style="@style/head_bookcase_tv"
+                    android:drawableTop="@mipmap/icon_golden_pig_make_lot_money"
+                    android:text="@string/golden_pig_make_lot_money"
+                    />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_marginBottom="@dimen/dp5"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp15"
+            android:gravity="center"
+            android:background="@drawable/shape_ffece4_bg_7corner"
+            android:textColor="@color/color_ff9948"
+            android:textSize="12sp"
+            android:id="@+id/new_books_tv"
+            tools:text="@string/new_books"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/head_container"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp25"/>
+
+    <RelativeLayout
+            android:layout_below="@+id/new_books_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp72">
+
+        <FrameLayout
+                android:padding="@dimen/dp15"
+                android:clipToPadding="false"
+                android:id="@+id/iv_container"
+                android:clipChildren="false"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:background="#00FF00"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="@dimen/dp50"/>
+
+            <TextView
+                    android:layout_marginRight="-7dp"
+                    android:background="@color/red_text_color"
+                    android:layout_marginTop="-7dp"
+                    android:layout_gravity="right"
+                    android:layout_width="@dimen/dp15"
+                    android:layout_height="@dimen/dp15"/>
+        </FrameLayout>
+
+        <TextView
+                android:layout_toRightOf="@+id/iv_container"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp15"
+                android:text="恭喜，你获得一个登录礼品"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <View
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_marginRight="@dimen/dp15"
+                style="@style/line_divide"
+                android:layout_below="@+id/iv_container"/>
+    </RelativeLayout>
+
+</RelativeLayout>

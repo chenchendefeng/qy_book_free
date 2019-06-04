@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/info_title_tv"
+            tools:text="金豆"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:includeFontPadding="false"
+            android:textSize="@dimen/sp19"
+            android:textColor="@color/black_text_color"
+            android:layout_marginTop="@dimen/dp14"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/info_content_tv"
+            android:layout_below="@+id/info_title_tv"
+            tools:text="金豆"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:visibility="gone"
+            android:id="@+id/info_tip_tv"
+            android:layout_marginLeft="@dimen/dp4"
+            android:layout_toRightOf="@+id/info_title_tv"
+            android:paddingLeft="@dimen/dp9"
+            android:paddingRight="@dimen/dp9"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp9"
+            tools:text="约1.03元"
+            android:background="@drawable/shape_circle_18_e5220e"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp17"/>
+
+</RelativeLayout>

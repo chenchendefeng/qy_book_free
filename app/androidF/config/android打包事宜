@@ -1,0 +1,9 @@
+打包
+gradle->app->build->assembleRelease
+打包成功保存BuglyBakApk里面的文件
+
+
+热更新补丁
+gradle->app->tinker-support->buildTinkerRelease
+补丁生成路径:
+outputs/patch/release

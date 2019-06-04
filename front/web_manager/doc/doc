@@ -1,0 +1,51 @@
+H5与原生通信示例：
+1.获取用户信息
+    原生调H5
+    window.McDispatcher({
+        "type": "getUserInfo",
+        "data": { "uid": "8677776666", "token": "token"}
+    })
+    H5调用原生
+    ios:
+    无参数：window.webkit.messageHandlers.getUserInfo.postMessage()
+    有参数：window.webkit.messageHandlers.getUserInfo.postMessage({param1:param1})
+    android:
+    无参数：window.webkit.getUserInfo()
+    有参数：window.webkit.getUserInfo({param1:param1})
+
+
+2.调用原生微信分享：wxshare
+    原生调H5
+    window.McDispatcher({
+        "type": "viewVideo",
+        "data": { "complete": true}
+    })
+    H5调用原生
+    ios:
+    无参数：window.webkit.messageHandlers.viewVideo.postMessage()
+    有参数：window.webkit.messageHandlers.viewVideo.postMessage({param1:param1})
+    android:
+    无参数：window.webkit.viewVideo()
+    有参数：window.webkit.viewVideo({param1:param1})
+
+
+3.调用原生播放视频广告：viewVideo
+ window.McDispatcher({
+    "type": "viewVideo"
+})
+
+
+
+{"linkType":"video",url:""} //视频广告
+{"linkType":"h5",url:"http://www.baidu.com"} //h5跳转
+app跳转
+{"linkType":"app","url":"invite"}  //邀请好友
+{"linkType":"app","url":"bookshelf"}  //书架页
+{"linkType":"app","url":"bindPhone"}  //绑定手机
+{"linkType":"app","url":"rewardCode"}  //填红包码
+{"linkType":"app","url":"wallet"}  //我的钱包
+{"linkType":"app","url":"withdraw"}  //我要提现
+{"linkType":"app","url":"welfare"}  //福利页
+{"linkType":"app","url":"checkIn"}  //签到页
+{"linkType":"app","url":"book://1234"}  //书籍详情
+{"linkType":"app","url":"joinMembership"}  //开通会员

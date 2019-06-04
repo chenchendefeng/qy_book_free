@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <View
+            android:id="@+id/line"
+            style="@style/line_divide"
+            android:layout_height="@dimen/dp8"
+            />
+
+    <RelativeLayout
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:paddingTop="@dimen/dp9"
+            android:paddingBottom="@dimen/dp9"
+            android:minHeight="@dimen/dp45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/info_title_tv"
+                android:textSize="@dimen/sp13"
+                android:textColor="@color/black_text_color"
+                android:layout_marginLeft="@dimen/dp15"
+                tools:text="xxxxx"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginRight="@dimen/dp15"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:visibility="gone"
+                    tools:background="@mipmap/gender_select_man_selected"
+                    android:id="@+id/info_iv"
+                    android:layout_width="@dimen/dp40"
+                    android:layout_height="@dimen/dp40"/>
+
+            <TextView
+                    android:id="@+id/info_content"
+                    tools:text="xxxxx"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <ImageView
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:id="@+id/enter_iv"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/icon_right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View style="@style/line_divide"/>
+</LinearLayout>

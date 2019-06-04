@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height">
+
+        <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/search_iv"
+                android:layout_marginLeft="@dimen/dp8"
+                android:src="@mipmap/icon_search_black"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/dp10"
+                android:layout_height="wrap_content"/>
+
+        <net.lucode.hackware.magicindicator.MagicIndicator
+                android:id="@+id/book_city_magic_indicator"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/classification_iv"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/icon_fenlei"
+                android:padding="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+            tools:background="@color/black_text_color"
+            android:id="@+id/book_city_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>
