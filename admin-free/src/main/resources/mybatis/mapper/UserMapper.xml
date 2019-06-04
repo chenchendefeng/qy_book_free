@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.only.tech.admin.mapper.UserEntityMapper">
+
+    <resultMap id="userMap" type="com.only.tech.dto.admin.UserAdminDto">
+        <result property="id" column="id" />
+        <result property="loginName" column="loginName" />
+        <result property="password" column="password" />
+        <result property="userName" column="userName" />
+        <result property="lastLoginTime" column="lastLoginTime" />
+        <result property="lastLoginIp" column="lastLoginIp" />
+        <result property="dateCreate" column="dateCreate" />
+        <result property="dateUpdate" column="dateUpdate" />
+        <collection property="roles" ofType="com.only.tech.dto.admin.RoleDto">
+            <result property="id" column="rid" />
+            <result property="roleName" column="roleName" />
+            <result property="parentId" column="parentId" />
+            <result property="description" column="description" />
+            <collection property="permissions" ofType="com.only.tech.dto.admin.PermissionDto">
+                <result property="id" column="pid" />
+                <result property="rightName" column="rightName"/>
+                <result property="url" column="url" />
+                <result property="parentId" column="pParentId" />
+                <result property="description" column="description" />
+	            <collection property="kids" ofType="com.only.tech.dto.admin.PermissionDto">
+	                <result property="id" column="pkid" />
+	                <result property="rightName" column="pkRightName"/>
+	                <result property="url" column="pkUrl" />
+	                <result property="parentId" column="pkParentId" />
+	                <result property="description" column="pDescription" />
+	            </collection>
+            </collection>
+        </collection>
+    </resultMap>
+
+    <select id="findUserInfoByLoginName" parameterType="string" resultMap="userMap">
+      SELECT u.id,u.loginName,u.password,u.userName,u.lastLoginTime,u.lastLoginIp,u.dateCreate,u.dateUpdate,
+      r.id as rid,r.roleName,r.parentId,r.description, 
+      p.id as pid,p.rightName,p.url,p.parentId as pParentId,p.description,
+      pk.id as pkid,pk.rightName as pkRightName,pk.url as pkUrl,pk.parentId as pkParentId,pk.description as pDescription
+      FROM a_user u
+        left JOIN a_user_role ur on ur.uid = u.id
+        left JOIN a_role r on r.id = ur.rid
+        left JOIN a_permission_role pr on pr.rid = r.id
+        left JOIN a_permission p on pr.pid = p.id 
+        left JOIN a_permission pk on pr.pid = pk.parentId
+      WHERE u.loginName = #{loginName}
+    </select>
+    <select id="userDetail" parameterType="int" resultMap="userMap">
+      SELECT u.id,u.loginName,u.password,u.userName,u.lastLoginTime,u.lastLoginIp,u.dateCreate,u.dateUpdate,
+      r.id as rid,r.roleName,r.parentId,r.description, 
+      p.id as pid,p.rightName,p.url,p.parentId AS pParentId,p.description
+      FROM a_user u
+        left JOIN a_user_role ur on ur.uid = u.id
+        left JOIN a_role r on r.id = ur.rid
+        left JOIN a_permission_role pr on pr.rid = r.id
+        left JOIN a_permission p on pr.pid = p.id
+      WHERE u.id=#{id}
+    </select>
+    
+    <update id="updatePassword" parameterType="map">
+    	update a_user set
+    	password=#{password}
+    	where id=#{id}
+    </update>
+    
+    <select id="listUserByUserName" resultMap="userMap" parameterType="string" >
+      SELECT u.id,u.loginName,u.password,u.userName,u.lastLoginTime,u.lastLoginIp,u.dateCreate,u.dateUpdate,
+      r.id as rid,r.roleName,r.parentId,r.description
+    	 from a_user u 
+    	    left JOIN a_user_role ur on ur.uid = u.id
+        	left JOIN a_role r on r.id = ur.rid
+        	<where>
+        		<if test="userName!=null and userName !='' ">
+        			u.userName like CONCAT('%',#{userName},'%')
+        		</if>
+        	</where>
+    </select>
+
+
+    
+</mapper>

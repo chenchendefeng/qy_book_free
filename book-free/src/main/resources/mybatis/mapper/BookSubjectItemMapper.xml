@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.book.mapper.BookSubjectItemMapper">
+
+
+    <!--查询专题书籍-->
+    <select id="listBySubjectIdOrderBySexMark" resultType="com.only.tech.dto.book.BookInfoDetailDto">
+		SELECT
+            t1.bid,
+            t2.author,
+            t2.category,
+            t2.chapterCount,
+            t2.coverImg,
+            t2.description,
+            t2.finishFlag,
+            t2.id,
+            t2.keywords,
+            t2.source,
+            t2.totalWordCount,
+            t2.name,
+            t2.lastUpdateTime,
+            t3.sexMark,
+            t4.readedCount,
+            t4.readingCount
+		FROM book_subject_item t1
+		left join book_info t2 on t1.bid=t2.bid
+		left join book_mark t3 on t1.bid=t3.bid
+        left join book_hot t4 on t1.bid=t4.bid
+		WHERE t1.subjectId=#{subjectId}
+
+        <if test=" sexMark == null or sexMark == '' ">
+            ORDER BY t4.readedCount desc
+        </if>
+
+        <if test=" sexMark == 'boy'.toString() ">
+           ORDER BY  t3.sexMark asc, t1.id desc
+        </if>
+
+
+        <if test=" sexMark == 'girl'.toString()  ">
+            ORDER BY   t3.sexMark desc, t1.id desc
+        </if>
+
+
+	</select>
+
+
+
+
+</mapper>

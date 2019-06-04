@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/activity-free.iml" filepath="$PROJECT_DIR$/.idea/activity-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../admin-free/admin-free.iml" filepath="$PROJECT_DIR$/../admin-free/admin-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../book-free/book-free.iml" filepath="$PROJECT_DIR$/../book-free/book-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chaos-app-free/chaos-app-free.iml" filepath="$PROJECT_DIR$/../chaos-app-free/chaos-app-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chaos-container-parent-free/chaos-container-parent-free.iml" filepath="$PROJECT_DIR$/../chaos-container-parent-free/chaos-container-parent-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../infz-free/infz-free.iml" filepath="$PROJECT_DIR$/../infz-free/infz-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../payment-free/payment-free.iml" filepath="$PROJECT_DIR$/../payment-free/payment-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user-free/user-free.iml" filepath="$PROJECT_DIR$/../user-free/user-free.iml" />
+    </modules>
+  </component>
+</project>

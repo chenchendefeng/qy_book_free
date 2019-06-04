@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.book.mapper.ChapterMapper">
+
+    <!--查询-->
+    <select id="listByBid" resultType="com.only.tech.entity.book.Chapter">
+		SELECT    c.*
+		FROM      chapter c
+		WHERE     c.bid=#{bid}
+		ORDER BY  c.displayOrder asc
+	</select>
+
+	<select id="chapterDtoList" resultType="com.only.tech.dto.book.ChapterDto">
+		SELECT
+			*
+		FROM
+			chapter c
+		LEFT JOIN volume v ON v.bid = c.bid AND v.vid = c.vid
+		WHERE c.bid = #{bid}
+		ORDER BY v.volumeSort ASC,c.displayOrder ASC
+	</select>
+
+	<select id="getOneByCondtion" resultType="com.only.tech.entity.book.Chapter">
+		select * from chapter where bid = #{bid} and cid = #{cid}
+	</select>
+
+
+	<!-- 获取制定章节之前的总字数 -->
+	<select id="readWordCount"  resultType="java.lang.Integer">
+        <![CDATA[
+            select sum(t2.wordNum) from chapter t2 where t2.bid = #{bid} and  t2.displayOrder < #{displayOrder}
+		 ]]>
+	</select>
+
+	<!--书籍总字数-->
+    <select id="getTotalWordCount" resultType="java.lang.Integer">
+		select sum(wordNum) from chapter  where bid = #{bid}
+	</select>
+
+
+</mapper>

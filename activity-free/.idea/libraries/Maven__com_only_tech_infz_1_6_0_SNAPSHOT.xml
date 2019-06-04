@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.only.tech:infz:1.6.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository_free/com/only/tech/infz/1.6.0-SNAPSHOT/infz-1.6.0-20190520.035900-78.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository_free/com/only/tech/infz/1.6.0-SNAPSHOT/infz-1.6.0-20190520.035900-78-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository_free/com/only/tech/infz/1.6.0-SNAPSHOT/infz-1.6.0-20190520.035900-78-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

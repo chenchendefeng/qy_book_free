@@ -1,0 +1,1 @@
+update u_user u set u.avatar = 'http://qy-pic.oss-cn-shenzhen.aliyuncs.com/head/default.png';

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../admin-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../book-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../bookAPI-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../chaos-app-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../chaos-container-parent-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../infz-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../infz-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../payment-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../user-free" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../test/nginx-balance" charset="UTF-8" />
+  </component>
+</project>

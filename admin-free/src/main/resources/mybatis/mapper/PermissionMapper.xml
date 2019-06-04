@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.only.tech.admin.mapper.PermissionEntityMapper">
+
+    <resultMap id="permissionMap" type="com.only.tech.dto.admin.PermissionDto">
+         <result property="id" column="id" />
+         <result property="rightName" column="rightName"/>
+         <result property="url" column="url" />
+         <result property="parentId" column="parentId" />
+         <result property="description" column="description" />
+         <collection property="roles" ofType="com.only.tech.dto.admin.RoleDto">
+	         <result property="id" column="rid" />
+	         <result property="roleName" column="roleName" />
+	         <result property="parentId" column="rParentId" />
+	         <result property="description" column="description" />
+	            <collection property="users" ofType="com.only.tech.dto.admin.UserAdminDto">
+		        <result property="id" column="uid" />
+		        <result property="loginName" column="loginName" />
+		        <result property="userName" column="userName" />
+		        </collection>
+         </collection>
+    </resultMap>
+
+    <select id="getPermissionDetail" parameterType="int" resultMap="permissionMap">
+      SELECT p.id ,p.rightName,p.url,p.parentId,p.description,
+      r.id as rid,r.roleName,r.parentId as rParentId,r.description, 
+      u.id as uid,u.loginName,u.userName
+      FROM a_permission p
+        left JOIN a_permission_role pr on pr.pid = p.id
+        left JOIN a_role r on pr.rid = r.id
+        left JOIN a_user_role ur on ur.rid = r.id
+        left JOIN a_user u on u.id = ur.uid    
+      WHERE p.id=#{id}
+    </select>
+    
+    <select id="getPermissionList" parameterType="String" resultType="com.only.tech.dto.admin.PermissionDto">
+      SELECT  
+      p.id,p.rightName,p.url,p.parentId,p.description
+      FROM a_permission p
+      <if test="keyword!=null and keyword!=''">
+      		WHERE p.description like CONCAT('%',#{keyword},'%')
+		</if>
+
+    </select>
+</mapper>

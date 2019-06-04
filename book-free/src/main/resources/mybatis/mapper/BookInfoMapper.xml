@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.book.mapper.BookInfoMapper">
+
+    <sql id="columnl_bookInfo_booInfoMark">
+            t1.id,
+            t1.bid,
+            t1.author,
+            t1.category,
+            t1.chapterCount,
+            t1.coverImg,
+            t1.description,
+            t1.finishFlag,
+            t1.keywords,
+            t1.source,
+            t1.totalWordCount,
+            t1.name,
+            t1.lastUpdateTime,
+            t1.originalBid,
+            t1.shelfStatus,
+            t2.sexMark,
+            t3.readedCount,
+            t3.readingCount,
+            t2.adCategory,
+            t3.collectionCount addBookShelfCount
+	</sql>
+
+    <!--按书籍阅读量排序查询书籍-->
+    <select id="listOrderByReadNum" resultType="com.only.tech.dto.book.BookInfoDetailDto">
+		SELECT  <include refid="columnl_bookInfo_booInfoMark" />
+		FROM      book_info t1
+		left join book_mark t2 on t1.bid=t2.bid
+        left join book_hot t3 on t1.bid=t3.bid
+        where 1=1
+        <if test=" category != null and category != '' ">
+            and t1.category = #{category}
+        </if>
+        ORDER BY t3.readedCount desc
+	</select>
+
+
+    <!-- 查询书籍列表（按书籍分类 & 完结状态） -->
+    <select id="listByAdCategory" resultType="com.only.tech.entity.book.BookInfo">
+        SELECT *
+        FROM book_info t1
+        left join book_mark t2 on t1.bid = t2.bid
+        where 1=1
+        <if test=" adCategory != null and adCategory != '' ">
+            and t2.adCategory = #{adCategory}
+        </if>
+        <if test=" finishFlag != null ">
+            and t1.finishFlag = #{finishFlag}
+        </if>
+
+        ORDER BY t1.id desc
+    </select>
+
+    <!-- 根据类型查询 -->
+    <select id="findPageByNameOrAuthorName" resultType="com.only.tech.exposeinfz.book.dto.BookInfoDto">
+		SELECT
+		*
+		FROM
+		book_info i
+		WHERE
+		name LIKE #{wd} OR author LIKE #{wd}
+	</select>
+
+    <!-- 统计男生女生书籍数量 -->
+    <select id="countBySexFlag" resultType="java.lang.Integer">
+		SELECT count(1)
+		FROM   book_info t1
+		left join book_mark t2 on t1.bid=t2.bid
+		WHERE t2.sexMark = #{sexMark}
+	</select>
+
+    <!--查询书籍详细信息-->
+    <select id="getBookInfoDetail" resultType="com.only.tech.dto.book.BookInfoDetailDto">
+        SELECT  <include refid="columnl_bookInfo_booInfoMark" />
+        FROM      book_info t1
+        left join book_mark t2 on t1.bid=t2.bid
+        left join book_hot t3 on t1.bid=t3.bid
+        where t1.bid=#{bid}
+    </select>
+
+    <!--查询书籍列表信息-->
+    <select id="getBookList" resultType="com.only.tech.exposeinfz.admin.dto.BookInfoDto">
+        SELECT t3.*,t4.readedCount
+        FROM
+        (select t1.*
+        from book_info t1
+        left join book_mark t2 on t1.bid = t2.bid
+        where 1=1
+        <if test="category != null">
+            AND t2.sexMark = #{category} or t2.category = #{category}
+        </if>
+        ) as t3
+        LEFT JOIN book_hot AS t4 ON t3.bid = t4.bid
+        where 1=1
+        <if test="status != null">
+            AND t3.shelfStatus = #{status}
+        </if>
+        <if test="keyWord != null">
+            AND t3.name like #{keyWord} or  t3.author like #{keyWord} or t3.bid = #{keyWord}
+        </if>
+        ORDER BY t4.readedCount DESC
+    </select>
+
+</mapper>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../admin-free/pom.xml" />
+        <option value="$PROJECT_DIR$/../book-free/pom.xml" />
+        <option value="$PROJECT_DIR$/../user-free/pom.xml" />
+        <option value="$PROJECT_DIR$/../payment-free/pom.xml" />
+        <option value="$PROJECT_DIR$/../chaos-app-free/pom.xml" />
+        <option value="$PROJECT_DIR$/../chaos-container-parent-free/pom.xml" />
+        <option value="$PROJECT_DIR$/../infz-free/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/activity-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/activity-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/activity-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../admin-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/admin-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/admin-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/admin-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../book-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/book-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/book-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/book-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bookAPI-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/bookAPI-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/bookAPI-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/bookAPI-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../chaos-app-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/chaos-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/chaos-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/chaos-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../chaos-container-parent-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/chaos-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/chaos-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/chaos-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../infz-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/infz-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/infz-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/infz-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../payment-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/payment-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/payment-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/payment-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../user-free">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/user-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/user-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/user-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../test/nginx-balance">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.18.18/repos/freecodes/server/user-free/branches" />
+                  <option value="https://192.168.18.18/repos/freecodes/server/user-free/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.18.18/repos/freecodes/server/user-free/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

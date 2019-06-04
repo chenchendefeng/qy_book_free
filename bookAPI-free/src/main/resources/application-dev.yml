@@ -1,0 +1,17 @@
+server:
+  port: 8099
+zipkin:
+  host: http://192.168.18.211
+logging:
+  level:
+    root: INFO
+    com:
+      favorites: DEBUG
+    org:
+      hibernate: ERROR
+      springframework:
+        web: INFO
+    ooh.chaos: debug
+    ooh.chaos.aspect.TimeAspect: warn
+    com.only: debug
+  path: /log/bookAPI-free

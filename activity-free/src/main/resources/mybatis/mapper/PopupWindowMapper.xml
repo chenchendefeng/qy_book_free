@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.activity.mapper.PopupWindowMapper">
+
+    <select id="list" resultType="com.only.tech.dto.activity.PopupWindowDto">
+        SELECT
+            windowType,
+            showType,
+            showPage,
+            skipType,
+            skipPage,
+            img,
+            bindActivity,
+            activityId
+        FROM
+            popup_window
+        WHERE
+            1 = 1
+        AND `status` = 1
+        <if test="showPage != null and showPage != ''">
+            AND (channel = #{channel})
+        </if>
+        <if test="channel != null and channel != ''">
+            AND (channel = #{channel} or channel = 'all')
+        </if>
+        <if test="clientType != null and clientType != ''">
+            AND (clientType = #{clientType} or clientType = 'all')
+        </if>
+        AND #{date} >= startTime
+        AND endTime >= #{date}
+    </select>
+</mapper>

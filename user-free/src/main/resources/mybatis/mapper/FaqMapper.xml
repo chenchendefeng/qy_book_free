@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.user.mapper.FaqMapper">
+
+	<!-- 查询帮助反馈 -->
+	<select id="getFaqDtoList" resultType="com.only.tech.exposeinfz.user.dto.FaqDto">
+		SELECT
+			*
+		FROM
+			faq
+		WHERE
+			1 = 1
+		<if test="status != null">
+			and status = #{status}
+		</if>
+		<if test="channle != null and channle != ''">
+			and (channle = -1 or channle like #{channle})
+		</if>
+		ORDER BY orderNo asc
+
+	</select>
+
+	<!-- 获取帮助反馈 -->
+	<select id="getFaqList" resultType="com.only.tech.user.dto.FaqRespDto">
+	  	SELECT
+		*
+		FROM
+		faq
+		WHERE
+		`status` = 1
+		<if test="channle != null and channle != ''">
+			AND (
+				channle = '-1'
+			OR (channle = #{channle})
+			)
+		</if>
+
+		ORDER BY orderNo asc
+
+	</select>
+</mapper>

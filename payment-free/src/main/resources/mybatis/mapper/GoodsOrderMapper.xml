@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.payment.mapper.GoodsOrderMapper">
+
+	<select id="queryOutTradeNoAndMoney" resultType="String">
+		select concat(t.order_num,'|^^|',t.money) from p_order t
+		 where t.pay_method=#{payMethod} and t.payment_status='1' 
+		 	and unix_timestamp( t.pay_time ) between unix_timestamp(#{startDate}) and unix_timestamp(#{endDate}) 
+	</select>
+	
+	<select id="countOrderByPayMethod" resultType="map">
+		select t.pay_method,sum(t.money)/100 as tradeAmount,COUNT(1) as tradeCount from (select * from p_order p where DATE(p.pay_time)=#{payDate}) t GROUP BY t.pay_method
+	</select>
+	
+	<select id="countOrderBySystemType" resultType="map">
+		select t.systemType,sum(t.money)/100 as tradeAmount,count(1) as tradeCount from (select * from p_order p where DATE(p.pay_time)=#{payDate}) t GROUP BY t.systemType
+	</select>
+	
+	<select id="sumPayMoneyByPayTime" resultType="bigDecimal">
+		select sum(p.money)/100 from p_order p where p.pay_time like CONCAT(#{date},'%' )  
+	</select>
+</mapper>

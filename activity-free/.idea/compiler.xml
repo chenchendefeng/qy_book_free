@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activity-free" />
+        <module name="admin-free" />
+        <module name="book-free" />
+        <module name="chaos-app-free" />
+        <module name="infz-free" />
+        <module name="payment-free" />
+        <module name="user-free" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="activity-free" target="1.8" />
+      <module name="admin-free" target="1.8" />
+      <module name="book-free" target="1.8" />
+      <module name="bookAPI-free" target="1.8" />
+      <module name="chaos-app-free" target="1.8" />
+      <module name="chaos-container-parent-free" target="1.8" />
+      <module name="infz-free" target="8" />
+      <module name="nginx-balance" target="1.8" />
+      <module name="payment-free" target="1.8" />
+      <module name="user-free" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

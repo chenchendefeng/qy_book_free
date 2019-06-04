@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.activity.mapper.BannerMapper">
+
+	<!-- 轮播图实体映射 -->
+	<resultMap type="com.only.tech.entity.activity.Banner" id="bannerResultMap">
+		<id property="id" column="id" />
+		<result property="img" column="img" />
+		<result property="url" column="url" />
+		<result property="position" column="position" />
+		<result property="type" column="type" />
+		<result property="associatedId" column="associatedId" />
+		<result property="beginTime" column="beginTime" />
+		<result property="endTime" column="endTime" />
+		<result property="validStatus" column="validStatus" />
+		<result property="channel" column="channel" />
+		<result property="orderIndex" column="orderIndex" />
+		<result property="bgColor" column="bgColor" />
+		<result property="createTime" column="createTime" />
+		<result property="updateTime" column="updateTime" />
+	</resultMap>
+
+	<sql id="common_column_sql">
+		id,
+		img,
+		url,
+		position,
+		type,
+		associatedId,
+		beginTime,
+		endTime,
+		validStatus,
+		channel,
+		orderIndex,
+		bgColor,
+		createTime,
+		updateTime
+	</sql>
+
+	<!-- 根据条件查询app轮播图列表 -->
+	<select id="selectByCondition" parameterType="com.only.tech.dto.activity.BannerReqDto"
+		resultMap="bannerResultMap">
+		select
+			<include refid="common_column_sql" />
+		from banner b
+		where b.validStatus = 1
+			AND b.beginTime <![CDATA[<=]]> now()
+			AND endTime <![CDATA[>=]]> now()
+			<if test="position != null and position != ''">
+				AND b.position = #{position}
+			</if>
+			<if test="channel != null and channel != ''">
+				AND (b.channel like concat(concat("%",#{channel}),"%") OR b.channel is null OR b.channel = '')
+			</if>
+		ORDER BY b.orderIndex
+	</select>
+
+</mapper>

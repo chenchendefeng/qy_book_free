@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>ooh.chaos</groupId>
+    <artifactId>chaos-container-parent-free</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <infz-free.version>1.0.0-SNAPSHOT</infz-free.version>
+        <chaos-app-free.version>1.0.0-SNAPSHOT</chaos-app-free.version>
+        <activity-free.version>1.0.0-SNAPSHOT</activity-free.version>
+        <admin-free.version>1.0.0-SNAPSHOT</admin-free.version>
+        <book-free.version>1.0.0-SNAPSHOT</book-free.version>
+        <payment-free.version>1.0.0-SNAPSHOT</payment-free.version>
+        <user-free.version>1.0.0-SNAPSHOT</user-free.version>
+
+        <log4j2.version>2.6.2</log4j2.version>
+        <commons.lang3.version>3.4</commons.lang3.version>
+        <sharding-sphere.version>3.0.0.M4</sharding-sphere.version>
+
+    </properties>
+
+
+    <build>
+        <finalName>${project.artifactId}-${project.version}</finalName>
+
+        <!-- -${current.timestamp} -->
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>nexus is Repository</name>
+            <url>http://192.168.18.211:8887/nexus/content/repositories/releases</url>
+            <!-- 正式版本确保版本唯一性 -->
+            <uniqueVersion>true</uniqueVersion>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>nexus is Repository</name>
+            <url>http://192.168.18.211:8887/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <pluginRepositories>
+
+        <!-- 使用里程碑版本和快照版本时需要此配置，使用正式发布版本的时候，此配置可以省略 start -->
+        <pluginRepository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <!-- end -->
+
+        <pluginRepository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>http://192.168.18.211:8887/nexus/content/groups/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+
+    </pluginRepositories>
+
+</project>

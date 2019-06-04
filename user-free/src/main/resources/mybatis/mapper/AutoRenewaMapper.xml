@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.user.mapper.AutoRenewaMapper">
+
+	<!-- 获取到期的用户 -->
+	<select id="statisticalExpireUid" resultType="java.lang.Long">
+		SELECT
+			a.uid
+		FROM
+			auto_renewa a
+		LEFT JOIN u_vip_record v ON a.uid = v.uid
+		WHERE
+			(a.`status` = 1 AND vipExpireDate = #{date})
+			or (vipExpireDate is null)
+	</select>
+</mapper>

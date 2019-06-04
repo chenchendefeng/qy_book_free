@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.only.tech.admin.mapper.RoleEntityMapper">
+
+    <resultMap id="roleMap" type="com.only.tech.dto.admin.RoleDto">
+         <result property="id" column="id" />
+         <result property="roleName" column="roleName" />
+         <result property="parentId" column="parentId" />
+         <result property="description" column="description" />
+         <collection property="permissions" ofType="com.only.tech.dto.admin.PermissionDto">
+             <result property="id" column="pid" />
+             <result property="rightName" column="rightName"/>
+             <result property="url" column="url" />
+             <result property="parentId" column="pParentId" />
+             <result property="description" column="description" />
+         </collection>
+         
+        <collection property="users" ofType="com.only.tech.dto.admin.UserAdminDto">
+        <result property="id" column="id" />
+        <result property="loginName" column="loginName" />
+        <result property="userName" column="userName" />
+        </collection>
+    </resultMap>
+
+    <select id="roleDetail" parameterType="int" resultMap="roleMap">
+      SELECT r.id ,r.roleName,r.parentId,r.description, 
+      p.id as pid,p.rightName,p.url,p.parentId as pParentId,p.description,
+      u.id as uid,u.loginName,u.userName
+      FROM a_role r
+        left JOIN a_user_role ur on ur.rid = r.id
+        left JOIN a_user u on u.id = ur.uid      
+        left JOIN a_permission_role pr on pr.rid = r.id or pr.rid=r.parentId
+        left JOIN a_permission p on pr.pid = p.id
+      WHERE r.id=#{id}
+    </select>
+</mapper>

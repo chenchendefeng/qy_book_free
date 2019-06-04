@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.user.mapper.CustomerMapper">
+
+	<sql id="sql_userInfo">
+		c.cuId,
+		c.nickName,
+		c.cuName,
+		c.password,
+		c.avatar,
+		c.source,
+		c.sex,
+		c.imei,
+		c.regDate,
+		c.address,
+		c.bindSource,
+		c.bindPhone,
+		c.bindOpenid,
+		c.bindQq,
+		c.registChannel,
+		c.phoneModel,
+		c.userType,
+		c.userStatus,
+		c.regVersion,
+		c.invitationCode
+	</sql>
+
+	<sql id="sql_userAccountInfo">
+		c.cuId,
+		c.nickName,
+		c.cuName,
+		c.password,
+		c.avatar,
+		c.source,
+		c.sex,
+		c.imei,
+		c.regDate,
+		c.address,
+		c.bindSource,
+		c.bindPhone,
+		c.bindOpenid,
+		c.bindQq,
+		c.registChannel,
+		c.phoneModel,
+		c.userType,
+		c.userStatus,
+		c.regVersion,
+		c.invitationCode,
+		a.rmb,
+		a.gold,
+		a.rmbTotal
+	</sql>
+
+
+	<!-- 根据绑定openid查询用户个人信息 -->
+	<select id="selectByBindOpenid" parameterType="java.lang.String" resultType="com.only.tech.entity.user.Customer" >
+		select <include refid="sql_userInfo" />  from customer c  where c.bindOpenid = #{bindOpenid}
+	</select>
+
+	<!-- 根据用户手机查询用户个人信息 -->
+	<select id="selectByBindPhone" parameterType="java.lang.String" resultType="com.only.tech.entity.user.Customer" >
+		select <include refid="sql_userInfo" />  from customer c where c.bindPhone = #{bindPhone}
+	</select>
+
+	<!--  根据机器编码查询游客用户 -->
+	<select id="queryVisitorByImei"  resultType="com.only.tech.entity.user.Customer" >
+		select <include refid="sql_userInfo" />  from customer c where c.imei = #{imei} and c.userType='visitor'
+	</select>
+
+
+	<!--  查询用户账户信息 -->
+	<select id="getCustomerAccountInfo"  resultType="com.only.tech.dto.user.CustomerAccountDto" >
+		select <include refid="sql_userAccountInfo" />
+		from customer c
+		left join customer_account a on c.cuId=a.cuId
+		where c.cuId = #{cuId}
+	</select>
+
+
+	<!-- 根据用户ID(uid)修改用户状态 -->
+	<update id="updateCustomerStatusByID" >
+		<if test="uid != null">
+			UPDATE customer u
+			<set>
+				<if test="customerStatus != null">
+					u.userStatus = #{customerStatus},
+				</if>
+			</set>
+			<where>
+				u.uid = #{uid}
+			</where>
+		</if>
+	</update>
+
+
+	<!-- 根据机器编码(imei)修改用户状态 -->
+	<update id="updateCustomerStatusByImei" >
+		<if test="imei != null">
+			UPDATE customer u
+			<set>
+				<if test="customerStatus != null">
+					u.userStatus = #{customerStatus},
+				</if>
+			</set>
+			<where>
+				u.imei = #{imei}
+			</where>
+		</if>
+	</update>
+
+	<!--  根据机器编码查询用户 -->
+	<select id="queryByImei"  resultType="com.only.tech.entity.user.Customer">
+		select * from customer u
+		where u.imei = #{imei}
+	</select>
+
+	<!--注销用户（删除qq号、微信号、手机号） -->
+	<update id="drawdownCustomer" parameterType="map">
+    	update customer set bindPhone=null , bindOpenid=null , bindQq=null, bindSource=null, phoneModel=null , imei=null  where cuId=#{cuId}
+    </update>
+
+
+    <!-- 修改手机 -->
+    <update id="updateBindPhone" parameterType="map">
+    	update customer set bindPhone=#{bindPhone}  where cuId=#{cuId}
+    </update>
+
+	<!-- 修改用户头像、昵称、性别 -->
+	<update id="update" parameterType="com.only.tech.dto.user.UpdateCustomerInfoDto">
+		<if test="cuId != null">
+			UPDATE customer c
+			<set>
+				<if test="nickName != null and nickName != ''">
+					c.nickName = #{nickName},
+				</if>
+				<if test="avatar != null and avatar != ''">
+					c.avatar = #{avatar}
+				</if>
+				<if test="sex != null and sex != ''">
+					c.sex = #{sex}
+				</if>
+			</set>
+			<where>
+				c.cuId = #{cuId}
+			</where>
+		</if>
+	</update>
+
+
+</mapper>

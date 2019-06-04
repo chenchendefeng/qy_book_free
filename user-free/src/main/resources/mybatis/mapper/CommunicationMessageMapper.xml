@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.user.mapper.CommunicationMessageMapper">
+
+    <select id="getDtoList" resultType="com.only.tech.dto.user.CommunicationMessageDto">
+        SELECT
+            m.*,
+            u.`nickName` toUserName
+        FROM
+            communication_message m
+        LEFT JOIN customer u ON u.cuId = m.toIdentifier
+        WHERE 1=1
+        <if test="sendStatus != null">
+            and m.sendStatus = #{sendStatus}
+        </if>
+        AND m.createDate BETWEEN #{startTime} and #{endTime}
+        ORDER BY m.createDate DESC
+    </select>
+</mapper>

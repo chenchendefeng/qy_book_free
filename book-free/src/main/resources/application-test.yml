@@ -1,0 +1,100 @@
+server:
+  port: 8091
+zipkin:
+  host: http://192.168.18.211
+logging:
+  level:
+    root: info
+    com:
+      favorites: DEBUG
+    org:
+      hibernate: ERROR
+      springframework:
+        web: INFO
+    ooh.chaos: debug
+    ooh.chaos.aspect.TimeAspect: warn
+    com.only: info
+  path: /log/book-free
+mybatis:
+  type-aliases-package: com.only.tech.book.mapper
+  config-locations: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+mybatis-plus:
+  mapper-locations: classpath*:mybatis/mapper/*.xml
+  type-aliases-package: com.only.tech.book.mapper
+  global-config:
+    logic-delete-value: 0
+    logic-not-delete-value: 1
+    db-config:
+      id-type: auto
+  configuration:
+    map-underscore-to-camel-case: false
+spring:
+  redis:
+    database: 0
+    host: www.weiyi.com
+    password: null
+    max-active: 8
+    max-idle: 500
+    max-wait: 1
+    min-idle: 0
+    port: 6379
+    timeout: 5000ms
+  rabbitmq:
+    host: www.weiyi.com
+    username: admin
+    password: 123456
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  dubbo:
+    application:
+      id: book-dubbo
+      name: book-dubbo
+    protocol:
+      name: dubbo
+      port: 20891
+    registry:
+      address: zookeeper://www.weiyi.com:2181
+    server: true
+    provider:
+      version: 2.0.0-free
+    consumer:
+      version: 2.0.0-free
+      check: false
+      timeout: 3000
+      cluster: failfast
+      retries: 0
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes-host: 192.168.18.210
+      cluster-nodes-port: 9300
+      repositories:
+        enable: true
+      xpack:
+        security:
+          user: elastic:changeme
+sharding:
+  jdbc:
+    config:
+      sharding:
+        default-database-strategy:
+          inline:
+            algorithm-expression: ds0
+            sharding-column: bid
+        tables:
+          chapter:
+            actual-data-nodes: ds0.chapter_$->{0..9}
+            table-strategy:
+              inline:
+                algorithm-expression: chapter_$->{(bid.intdiv(100))%10}
+                sharding-column: bid
+    datasource:
+      ds0:
+        url: jdbc:mysql://www.weiyi.com:3306/book_free?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+        type: com.alibaba.druid.pool.DruidDataSource
+        username: root
+        password: WEIYI2018
+        driver-class-name: com.mysql.jdbc.Driver
+      names: ds0

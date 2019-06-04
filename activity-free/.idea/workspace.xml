@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="f8c878ef-b7c2-4f00-9c5c-43080e6f9e3a" name="Default" comment="···">
+      <change beforePath="$PROJECT_DIR$/../admin-free/admin-free.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../admin-free/admin-free.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-free/book-free.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-free/book-free.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chaos-app-free/chaos-app-free.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../chaos-app-free/chaos-app-free.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../infz-free/infz-free.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../infz-free/infz-free.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-free/payment-free.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../payment-free/payment-free.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-free/user-free.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-free/user-free.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../admin-free/target/" />
+    <ignored path="$PROJECT_DIR$/../book-free/target/" />
+    <ignored path="$PROJECT_DIR$/../infz-free/target/" />
+    <ignored path="$PROJECT_DIR$/../user-free/target/" />
+    <ignored path="$PROJECT_DIR$/../bookAPI-free/target/" />
+    <ignored path="$PROJECT_DIR$/../chaos-app-free/target/" />
+    <ignored path="$PROJECT_DIR$/../chaos-container-parent-free/target/" />
+    <ignored path="$PROJECT_DIR$/../payment-free/target/" />
+    <ignored path="$PROJECT_DIR$/../../test/nginx-balance/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="book@192.168.18.210" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="book@192.168.18.210" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="book@192.168.18.210" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="admin_free: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WXPrePayRecordMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper/WXPrePayRecordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsOrderMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper/GoodsOrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="53" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddBillRecordMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper/AddBillRecordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsMgrController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/GoodsMgrController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="49" column="67" lean-forward="true" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsFacade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/GoodsFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsInfz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/payment/api/GoodsInfz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsInfzImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/infzImpl/GoodsInfzImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/biz/GoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/biz/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>WXTradeResultEntityMapper</find>
+      <find>registerByWechat</find>
+      <find>customerAccountFacade.creat(customer.getCuId());</find>
+      <find>goodsOrderService.sa</find>
+      <find>queryOrderByOutTradeNo`</find>
+      <find>goodsOrderService</find>
+      <find>listByBookClass</find>
+      <find>book_class_category</find>
+      <find>BookClassService</find>
+      <find>t2.bid</find>
+      <find>listOrderByReadNum</find>
+      <find>qyCategory</find>
+      <find>book_info_mark</find>
+      <find>BookSubjectItemMapper``</find>
+      <find>pageListByBookClass</find>
+      <find>listBySubjectIdOrderBySexMark</find>
+      <find>getBookInfoDetail</find>
+      <find>swagg</find>
+      <find>swa</find>
+      <find>swagger</find>
+      <find>ApiVersion</find>
+      <find>fastjson`</find>
+      <find>fastjson</find>
+      <find>getCustomerAccountInfo</find>
+      <find>sql_userAccountInfo</find>
+      <find>golb</find>
+      <find>templateId</find>
+      <find>goods</find>
+      <find>FROM goods  WHERE  saleStatus</find>
+      <find>商品查询异常</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/constant</dir>
+      <dir>$PROJECT_DIR$/../infz-free</dir>
+      <dir>$PROJECT_DIR$/../payment-free/src/main/resources</dir>
+      <dir>$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper</dir>
+      <dir>$PROJECT_DIR$/../book-free</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/../chaos-container-parent-free</dir>
+      <dir>$PROJECT_DIR$/../payment-free</dir>
+      <dir>$PROJECT_DIR$/../user-free</dir>
+      <dir>$PROJECT_DIR$/../admin-free</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/book/BookCategoryRela.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/biz/BookMarkServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/biz/BookMarkService.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/resources/mybatis/mapper/BookMarkMapper.xml" />
+        <option value="$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/biz/GoodsOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../chaos-app-free/src/main/java/ooh/chaos/configuration/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/biz/BookSubjectItemService.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/user/api/AccountFlowRecordInfz.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/infzImpl/AccountFlowRecordInfzImpl.java" />
+        <option value="$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/AccountFlowFacade.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/AccountFlowRecordService.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/AccountFlowRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/user/Customer.java" />
+        <option value="$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/AccountFlowMgrController.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/dto/user/CustomerDetailDto.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/eb782bbb-863c-470a-a2d1-1505d7312dce/console_1.sql" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/InvitationRecordService.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/InvitationRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/mapper/InvitationRecordMapper.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/resources/mybatis/mapper/InvitationRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/BookInfoManageController.java" />
+        <option value="$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/BookManageFacade.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/book/api/BookInfoInfz.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/infzImpl/BookInfoInfzImpl.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/facade/BookCategoryFacde.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/biz/BookCategoryService.java" />
+        <option value="$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/biz/BookCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/dto/user/CustomerAccountDto.java" />
+        <option value="$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/CustomerFacade.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/user/api/CustomerInfz.java" />
+        <option value="$PROJECT_DIR$/../infz-free/pom.xml" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/payment/api/WxRedPacketInfz.java" />
+        <option value="$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/infzImpl/WxRedPacketInfzImpl.java" />
+        <option value="$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/handler/WxRedPacketHandler.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/mapper/RedpacketCheckResultMapper.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/RedpacketCheckResultServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/RedpacketCheckResultService.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/facade/ExchangeOrderFacade.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/controller/ExchangeOrderController.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/infzImpl/ExchangeOrderInfzImpl.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/dto/user/UpdateCustomerInfoDto.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/mapper/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/resources/mybatis/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/CustomerService.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/CustomerMgrController.java" />
+        <option value="$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/infzImpl/CustomerInfzImpl.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/user/RedPacketCheckResult.java" />
+        <option value="$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/user/RedpacketCheckResult.java" />
+        <option value="$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/FeedBackManageController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/.m2/repository_free" />
+        <option name="mavenHome" value="$USER_HOME$/tools/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$USER_HOME$/tools/apache-maven-3.6.0/conf/setting_qy.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="free_v1.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payment-free" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free_v1.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payment-free" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free_v1.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payment-free" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free_v1.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payment-free" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.only.tech.payment.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.only.tech.dto.user" />
+      <recent name="com.only.tech.admin.service.facade" />
+      <recent name="com.only.tech.admin.controller" />
+      <recent name="com.only.tech.entity.book" />
+      <recent name="com.only.tech.book.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../user-free/src/main/resources/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/../book-free/src/main/resources/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/common/utils" />
+      <recent name="$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/handler" />
+      <recent name="$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/push" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="svn" revision="410">$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/FeedBackManageController.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Remote.remote_test_payment">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="remote_test_admin" type="Remote" factoryName="Remote">
+      <module name="admin-free" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="192.168.18.211" />
+      <option name="PORT" value="8895" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8895" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration name="remote_test_book" type="Remote" factoryName="Remote">
+      <module name="book-free" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="192.168.18.211" />
+      <option name="PORT" value="8891" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8891" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration name="remote_test_payment" type="Remote" factoryName="Remote">
+      <module name="payment-free" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="192.168.18.212" />
+      <option name="PORT" value="8003" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8003" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration name="ActivityFreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activity-free" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.only.tech.activity.ActivityFreeApplication" />
+    </configuration>
+    <configuration name="AdminFreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-free" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.only.tech.admin.AdminFreeApplication" />
+    </configuration>
+    <configuration name="BookFreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="book-free" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.only.tech.book.BookFreeApplication" />
+    </configuration>
+    <configuration name="ChaosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chaos-app-free" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ooh.chaos.ChaosApplication" />
+    </configuration>
+    <configuration name="NginxBalanceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nginx-balance" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.only.tech.test.NginxBalanceApplication" />
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="payment-free" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.only.tech.payment.PaymentApplication" />
+    </configuration>
+    <configuration name="UserFreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-free" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.only.tech.user.UserFreeApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Remote.remote_test_book" />
+      <item itemvalue="Remote.remote_test_admin" />
+      <item itemvalue="Remote.remote_test_payment" />
+      <item itemvalue="Spring Boot.BookFreeApplication" />
+      <item itemvalue="Spring Boot.ActivityFreeApplication" />
+      <item itemvalue="Spring Boot.UserFreeApplication" />
+      <item itemvalue="Spring Boot.AdminFreeApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.NginxBalanceApplication" />
+      <item itemvalue="Spring Boot.ChaosApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="FORCE_UPDATE" value="true" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../admin-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../admin-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../book-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../book-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../chaos-app-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../chaos-app-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../chaos-container-parent-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../chaos-container-parent-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../infz-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../infz-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../payment-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../payment-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../user-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../user-free" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../admin-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../admin-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../book-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../book-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../chaos-app-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../chaos-app-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../chaos-container-parent-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../chaos-container-parent-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../infz-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../infz-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../payment-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../payment-free" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../user-free" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../user-free" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8c878ef-b7c2-4f00-9c5c-43080e6f9e3a" name="Default" comment="" />
+      <created>1557147571845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557147571845</updated>
+      <workItem from="1557147573800" duration="2000" />
+      <workItem from="1557147600151" duration="4522000" />
+      <workItem from="1557201344384" duration="50276000" />
+      <workItem from="1557725691740" duration="105327000" />
+      <workItem from="1558401804974" duration="25457000" />
+      <workItem from="1558666341085" duration="9031000" />
+      <workItem from="1559029596228" duration="41712000" />
+    </task>
+    <task id="LOCAL-00018" summary="整理代码">
+      <created>1557727381029</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557727381029</updated>
+    </task>
+    <task id="LOCAL-00019" summary="整理代码">
+      <created>1557727493028</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557727493028</updated>
+    </task>
+    <task id="LOCAL-00020" summary="整理代码">
+      <created>1557727532026</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557727532026</updated>
+    </task>
+    <task id="LOCAL-00021" summary="整理代码">
+      <created>1557727870029</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1557727870029</updated>
+    </task>
+    <task id="LOCAL-00022" summary="整理代码">
+      <created>1557727992028</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1557727992028</updated>
+    </task>
+    <task id="LOCAL-00023" summary="整理代码">
+      <created>1557729387031</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1557729387031</updated>
+    </task>
+    <task id="LOCAL-00024" summary="···">
+      <created>1557729475030</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1557729475030</updated>
+    </task>
+    <task id="LOCAL-00025" summary="···">
+      <created>1557729925029</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1557729925029</updated>
+    </task>
+    <task id="LOCAL-00026" summary="···">
+      <created>1557735260030</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1557735260030</updated>
+    </task>
+    <task id="LOCAL-00027" summary="···">
+      <created>1557736935029</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1557736935030</updated>
+    </task>
+    <task id="LOCAL-00028" summary="···">
+      <created>1557742253033</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1557742253033</updated>
+    </task>
+    <task id="LOCAL-00029" summary="···">
+      <created>1557743229025</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1557743229025</updated>
+    </task>
+    <task id="LOCAL-00030" summary="···">
+      <created>1557803884029</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1557803884029</updated>
+    </task>
+    <task id="LOCAL-00031" summary="···">
+      <created>1557804063026</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1557804063026</updated>
+    </task>
+    <task id="LOCAL-00032" summary="商品管理">
+      <created>1557816744030</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1557816744030</updated>
+    </task>
+    <task id="LOCAL-00033" summary="商品管理">
+      <created>1557822068028</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1557822068028</updated>
+    </task>
+    <task id="LOCAL-00034" summary="商品管理">
+      <created>1557824009027</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1557824009027</updated>
+    </task>
+    <task id="LOCAL-00035" summary="...">
+      <created>1557826671029</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1557826671029</updated>
+    </task>
+    <task id="LOCAL-00036" summary="商品管理">
+      <created>1557829125031</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1557829125031</updated>
+    </task>
+    <task id="LOCAL-00037" summary="···">
+      <created>1557832380027</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1557832380027</updated>
+    </task>
+    <task id="LOCAL-00038" summary="···">
+      <created>1557884101036</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1557884101036</updated>
+    </task>
+    <task id="LOCAL-00039" summary="会员管理">
+      <created>1557885509031</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1557885509031</updated>
+    </task>
+    <task id="LOCAL-00040" summary="看视频免广告">
+      <created>1557900128034</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1557900128034</updated>
+    </task>
+    <task id="LOCAL-00041" summary="看视频免广告">
+      <created>1557902592030</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1557902592030</updated>
+    </task>
+    <task id="LOCAL-00042" summary="微信支付">
+      <created>1557906976027</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1557906976027</updated>
+    </task>
+    <task id="LOCAL-00043" summary="书籍打标，分类书籍">
+      <created>1557921708030</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1557921708030</updated>
+    </task>
+    <task id="LOCAL-00044" summary="书籍专题缺陷修复">
+      <created>1557977660028</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1557977660028</updated>
+    </task>
+    <task id="LOCAL-00045" summary="···">
+      <created>1557977760030</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1557977760030</updated>
+    </task>
+    <task id="LOCAL-00046" summary="书籍专题缺陷修复">
+      <created>1557985132037</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1557985132037</updated>
+    </task>
+    <task id="LOCAL-00047" summary="阅读福利bug">
+      <created>1558091971027</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1558091971027</updated>
+    </task>
+    <task id="LOCAL-00048" summary="代码整理">
+      <created>1558320801028</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1558320801028</updated>
+    </task>
+    <task id="LOCAL-00049" summary="订单管理">
+      <created>1558339979034</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1558339979034</updated>
+    </task>
+    <task id="LOCAL-00050" summary="订单管理">
+      <created>1558340630028</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1558340630031</updated>
+    </task>
+    <task id="LOCAL-00051" summary="用户管理">
+      <created>1558346163036</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1558346163037</updated>
+    </task>
+    <task id="LOCAL-00052" summary="代码整理">
+      <created>1558405512032</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1558405512033</updated>
+    </task>
+    <task id="LOCAL-00053" summary="书籍分类修改">
+      <created>1558408889028</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1558408889029</updated>
+    </task>
+    <task id="LOCAL-00054" summary="代码整理">
+      <created>1558420386030</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1558420386030</updated>
+    </task>
+    <task id="LOCAL-00055" summary="类目关系">
+      <created>1558492811028</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1558492811029</updated>
+    </task>
+    <task id="LOCAL-00056" summary="修改缺陷">
+      <created>1558607757028</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1558607757028</updated>
+    </task>
+    <task id="LOCAL-00057" summary="用户冻结、解冻">
+      <created>1559186674049</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1559186674052</updated>
+    </task>
+    <task id="LOCAL-00058" summary="用户管理">
+      <created>1559202830037</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1559202830037</updated>
+    </task>
+    <task id="LOCAL-00059" summary="用户账户信息">
+      <created>1559210806027</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1559210806027</updated>
+    </task>
+    <task id="LOCAL-00060" summary="···">
+      <created>1559213770036</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1559213770037</updated>
+    </task>
+    <task id="LOCAL-00061" summary="···">
+      <created>1559294799030</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1559294799030</updated>
+    </task>
+    <task id="LOCAL-00062" summary="修改用户属性">
+      <created>1559526043043</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1559526043043</updated>
+    </task>
+    <task id="LOCAL-00063" summary="修改bug">
+      <created>1559532609030</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1559532609030</updated>
+    </task>
+    <task id="LOCAL-00064" summary="···">
+      <created>1559540426031</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1559540426031</updated>
+    </task>
+    <task id="LOCAL-00065" summary="···">
+      <created>1559541090036</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1559541090036</updated>
+    </task>
+    <task id="LOCAL-00066" summary="···">
+      <created>1559541207027</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1559541207027</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="236327000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.19170243" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" weight="0.16881259" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.34428573" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.24714285" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.50285715" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.19" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297568" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.21857142" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.14285715" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24571429" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.14285715" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.16881259" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.50285715" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.19170243" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.21857142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.24714285" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.34428573" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297568" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="书架" />
+    <MESSAGE value="阅读福利" />
+    <MESSAGE value="缺陷修复" />
+    <MESSAGE value="阅读进度" />
+    <MESSAGE value="整理代码" />
+    <MESSAGE value="..." />
+    <MESSAGE value="商品管理" />
+    <MESSAGE value="会员管理" />
+    <MESSAGE value="看视频免广告" />
+    <MESSAGE value="微信支付" />
+    <MESSAGE value="书籍打标，分类书籍" />
+    <MESSAGE value="书籍专题缺陷修复" />
+    <MESSAGE value="阅读福利bug" />
+    <MESSAGE value="订单管理" />
+    <MESSAGE value="书籍分类修改" />
+    <MESSAGE value="代码整理" />
+    <MESSAGE value="类目关系" />
+    <MESSAGE value="修改缺陷" />
+    <MESSAGE value="用户冻结、解冻" />
+    <MESSAGE value="用户管理" />
+    <MESSAGE value="用户账户信息" />
+    <MESSAGE value="书籍分类" />
+    <MESSAGE value="修改用户属性" />
+    <MESSAGE value="修改bug" />
+    <MESSAGE value="···" />
+    <option name="LAST_COMMIT_MESSAGE" value="···" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="25" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/BookInfoManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="93" column="77" selection-start-line="93" selection-start-column="77" selection-end-line="93" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/infzImpl/BookInfoInfzImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
+          <folding>
+            <element signature="e#3584#3585#0" expanded="true" />
+            <element signature="e#3611#3612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/facade/BookCategoryFacde.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+          <folding>
+            <element signature="e#2543#2544#0" expanded="true" />
+            <element signature="e#2576#2577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/biz/BookCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../book-free/src/main/java/com/only/tech/book/service/biz/BookCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/book/api/BookInfoInfz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/BookManageFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/dto/user/CustomerAccountDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/payment/api/WxRedPacketInfz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/ExchangeOrderMgrFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/user/ReadTimePerday.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/handler/WxRedPacketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="31" selection-start-line="171" selection-start-column="11" selection-end-line="171" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/mapper/RedpacketCheckResultMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/RedpacketCheckResultServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="135" selection-start-line="16" selection-start-column="135" selection-end-line="16" selection-end-column="135" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/infzImpl/ExchangeOrderInfzImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/controller/ExchangeOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="63" lean-forward="true" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/facade/ExchangeOrderFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="349" lean-forward="true" selection-end-line="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/dto/user/FriendInfoDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/dto/user/ExchangeOrderDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/dto/user/UpdateCustomerInfoDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/user/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/resources/mybatis/mapper/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="136" column="40" lean-forward="true" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/CustomerMgrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/RedpacketCheckResultService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="175" column="7" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/biz/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/service/infzImpl/CustomerInfzImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="133" column="44" lean-forward="true" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+          <folding>
+            <element signature="e#2821#2841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/user/api/CustomerInfz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/CustomerFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-free/src/main/java/com/only/tech/user/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="142" column="64" selection-start-line="142" selection-start-column="64" selection-end-line="142" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/user/RedpacketCheckResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/FeedBackManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/infzImpl/WxRedPacketInfzImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../book-free/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-938">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper/WXTradeResultEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper/WXPrePayRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper/GoodsOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/resources/mybatis/mapper/AddBillRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/controller/GoodsMgrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="49" column="67" lean-forward="true" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin-free/src/main/java/com/only/tech/admin/service/facade/GoodsFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/exposeinfz/payment/api/GoodsInfz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/infzImpl/GoodsInfzImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/biz/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infz-free/src/main/java/com/only/tech/entity/payment/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../payment-free/src/main/java/com/only/tech/payment/service/biz/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>infz-free</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

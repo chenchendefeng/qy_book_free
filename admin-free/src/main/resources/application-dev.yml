@@ -1,0 +1,56 @@
+server:
+  port: 8095
+zipkin:
+  host: http://192.168.18.211
+logging:
+  level:
+    root: INFO
+    com:
+      favorites: DEBUG
+    org:
+      hibernate: ERROR
+      springframework:
+        web: INFO
+    ooh.chaos: debug
+    ooh.chaos.aspect.TimeAspect: warn
+    com.only: debug
+  path: /log/admin-free
+mybatis:
+  type-aliases-package: com.only.tech.admin.mapper
+  config-locations: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+mybatis-plus:
+  mapper-locations: classpath*:mybatis/mapper/*.xml
+  type-aliases-package: com.only.tech.admin.mapper
+  global-config:
+    logic-delete-value: 0
+    logic-not-delete-value: 1
+    db-config:
+      id-type: auto
+  configuration:
+    map-underscore-to-camel-case: false
+spring:
+  dubbo:
+    application:
+      id: admin-free-dubbo
+      name: admin-free-dubbo
+    protocol:
+      name: dubbo
+      port: 20895
+    registry:
+      address: zookeeper://www.weiyi.com:2181
+    server: true
+    provider:
+      version: 2.0.0-free
+    consumer:
+      version: 2.0.0-free
+      check: false
+      timeout: 3000
+      cluster: failfast
+      retries: 0
+  datasource:
+    url: jdbc:mysql://www.weiyi.com:3306/admin_free?useUnicode=true&characterEncoding=UTF-8
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: WEIYI2018
+    driver-class-name: com.mysql.jdbc.Driver

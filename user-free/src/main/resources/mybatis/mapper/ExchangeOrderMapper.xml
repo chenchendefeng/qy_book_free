@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.only.tech.user.mapper.ExchangeOrderMapper">
+
+    <select id="dtoList" resultType="com.only.tech.dto.user.ExchangeOrderDto">
+        SELECT
+            o.*,
+            c.nickName,
+            c.avatar,
+            c.regDate
+        FROM
+            exchange_order o
+        LEFT JOIN customer c ON c.cuId = o.cuId
+        where 1=1
+        <if test="cuId != null">
+            and cuId = #{cuId}
+        </if>
+        <if test="orderStatus != null">
+            and orderStatus = #{orderStatus}
+        </if>
+        <if test="startTime != null and startTime != ''">
+            and createTime >= #{startTime}
+        </if>
+        <if test="endTime != null and endTime != ''">
+            and #{endTime} >= createTime
+        </if>
+
+    </select>
+</mapper>
