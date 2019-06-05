@@ -1,0 +1,82 @@
+【Linux 笔记】
+
+
+13697431283     
+
+
+查看端口： netstat -ntpl
+命令上传文件命令：   rz    （安装： yum install -y lrzsz）
+Ping ip:  ping 192.168.1.1
+检查端口：  telnet  192.168.1.1:8080
+
+【nginx】
+检查配置并启动：  ./nginx -c /usr/local/nginx/conf/nginx.conf
+重新启动： ./nginx -s reload
+停止：  
+   1） ps -ef|grep nginx
+   2）kill -QUIT  pid
+
+查看内存使用情况：  【ps aux --sort -rss】
+清除cache/buff. :      【echo 3 > /proc/sys/vm/drop_caches】
+
+
+远程监控端口： 【 -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8881,suspend=n 】
+
+修改用户对密码： 【 passed root 】
+
+端口号占有： 【 lsof -i:3003 】
+
+Nodes 启动： 【 pm2 start npm --name ".nuxt" -- run start 】
+
+查看端口是开放： 【  telnet 192.192.193.211 22  】
+
+
+redis删除所有缓存 【 flushall 】
+
+rabbitmq 启动： 【 /usr/local/rabbitmq/sbin/rabbitmq-server  -detached & 】
+
+
+/Users/chenhong/tools/apache-maven-3.6.0
+
+export M2_HOME=/Users/chenhong/tools/apache-maven-3.6.0
+export PATH=$PATH:$M2_HOME/bin
+
+
+【git 命令】
+初始化。 git init
+配置。git config —global user.name ‘chenchendefeng’
+配置   git config —global user.email ’chenchendefeng@126.com’
+本地上传  git add .
+本地提交     git commit -m ‘注解信息’
+提交到远程。git push xxxxx master
+拉远程代码。  git  pull  xxxxx master
+查看日志 git  log
+查看日志。git  log —pretty=oneline
+查看日志。git reflog
+切换版本。 git  reset —hard  版本号(部分) 
+
+查看分支： git  branch 
+创建分支： git branch  分支名
+切换分支： git  checkout  分支名
+合并分支： git  merge  分支名         —先要切换到master分支
+删除分支： git  branch  -d  分支名
+
+添加远程地址的本地别名： git remote add 别名  远程git地址
+删除本地别名：   git  remote  remove  别名
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
