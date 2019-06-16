@@ -48,6 +48,8 @@ export PATH=$PATH:$M2_HOME/bin
 配置   git config —global user.email ’chenchendefeng@126.com’
 本地上传  git add .
 本地提交     git commit -m ‘注解信息’
+本地提交（add && commit）  git commit -am '注解信息'
+
 提交到远程。git push xxxxx master
 拉远程代码。  git  pull  xxxxx master
 查看日志 git  log
@@ -63,6 +65,8 @@ export PATH=$PATH:$M2_HOME/bin
 
 添加远程地址的本地别名： git remote add 别名  远程git地址
 删除本地别名：   git  remote  remove  别名
+
+
 
 
 
