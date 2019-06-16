@@ -65,6 +65,7 @@ export PATH=$PATH:$M2_HOME/bin
 
 添加远程地址的本地别名： git remote add 别名  远程git地址
 删除本地别名：   git  remote  remove  别名
+删除远程分支：  git push origin  --delete 分支名
 
 
 
