@@ -58,6 +58,7 @@ export PATH=$PATH:$M2_HOME/bin
 切换版本。 git  reset —hard  版本号(部分) 
 
 查看分支： git  branch 
+查看远程分支： git branch -r 
 创建分支： git branch  分支名
 切换分支： git  checkout  分支名
 合并分支： git  merge  分支名         —先要切换到master分支
@@ -66,6 +67,16 @@ export PATH=$PATH:$M2_HOME/bin
 添加远程地址的本地别名： git remote add 别名  远程git地址
 删除本地别名：   git  remote  remove  别名
 删除远程分支：  git push origin  --delete 分支名
+
+git pull origin master ==
+1. git fetch 
+2. git merge origin/master
+
+
+
+
+
+
 
 
 
