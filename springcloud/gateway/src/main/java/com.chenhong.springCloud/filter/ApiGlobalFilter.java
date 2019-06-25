@@ -34,10 +34,20 @@ public class ApiGlobalFilter implements GlobalFilter {
 
             response.setStatusCode(HttpStatus.UNAUTHORIZED);
             response.getHeaders().add("Content-Type", "text/json;charset=UTF-8");
-            return response.writeWith(Mono.just(buffer));
+//            return response.writeWith(Mono.just(buffer));
         }
 
         return chain.filter(exchange);
+    }
+
+
+    public static void main(String[] args) {
+        Map<String, Object> message = new HashMap<>();
+        message.put("status", -1);
+        message.put("data", "鉴权失败");
+
+        System.out.println(message.toString());
+
     }
 
 }

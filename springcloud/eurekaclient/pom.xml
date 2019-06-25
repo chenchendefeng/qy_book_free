@@ -14,11 +14,14 @@
 
     <dependencies>
 
+        <!-- 服务提供者 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!-- 熔断器 -->
+        <!-- Eureka Server 默认集成了熔断器，因此必须添加此依赖，否则启动会报错。 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
